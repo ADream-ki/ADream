@@ -426,7 +426,8 @@ CMakeFiles/ADream.dir/main.cpp.obj: D:/ADream/main.cpp \
   D:/ADream/Moudles/BaseWindow.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QFrame \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
-  D:/ADream/Moudles/TitleBar.h
+  D:/ADream/Moudles/TitleBar.h \
+  D:/ADream/Controls/ADBorderContainer.h
 
 CMakeFiles/ADream.dir/qrc_resources.cpp.obj: qrc_resources.cpp
 
@@ -590,6 +591,8 @@ D:/Qt/6.5.0/mingw_64/include/QtCore/qcontainerfwd.h:
 D:/mingw1120_64/x86_64-w64-mingw32/include/limits.h:
 
 D:/Qt/6.5.0/mingw_64/include/QtCore/qtconfigmacros.h:
+
+D:/ADream/Controls/ADBorderContainer.h:
 
 D:/Qt/6.5.0/mingw_64/include/QtCore/qflags.h:
 

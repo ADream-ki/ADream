@@ -403,9 +403,9 @@ Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj: D:/ADream/Moudles/BaseWindow.
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/ADream/Controls/ADButton.h \
+  D:/ADream/Controls/ADBorderContainer.h \
   D:/ADream/Controls/ADWidgetMove.h \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
-  D:/ADream/Controls/ADBorderContainer.h
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject
 
 Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: Moudles/Moudles_autogen/mocs_compilation.cpp \
   Moudles/Moudles_autogen/EWIEGA46WW/moc_BaseWindow.cpp \
@@ -810,6 +810,7 @@ Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: Moudles
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/ADream/Controls/ADButton.h \
+  D:/ADream/Controls/ADBorderContainer.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtextcursor.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtextformat.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \

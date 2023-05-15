@@ -400,8 +400,8 @@ D:/ADream/Moudles/BaseWindow.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
-D:/ADream/Moudles/Setting.h
 D:/ADream/Moudles/TitleBar.cpp
+D:/ADream/Moudles/Setting.h
 D:/ADream/Moudles/TitleBar.h
  mmc:Q_OBJECT
  mdp:D:/ADream/Moudles/TitleBar.h
