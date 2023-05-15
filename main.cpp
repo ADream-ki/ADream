@@ -20,19 +20,20 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     BaseWindow w;
     w.setWindowTitle("WidgetBase");
-    QPushButton* button1 = new QPushButton("OK");
-    QHBoxLayout* hLayout1 = new QHBoxLayout;
+    QPushButton *button1 = new QPushButton("OK");
+    QHBoxLayout *hLayout1 = new QHBoxLayout;
     hLayout1->addStretch(1);
     hLayout1->addWidget(button1);
 
-    QVBoxLayout* layout = new QVBoxLayout;
-    QTreeView* treeView = new QTreeView;
+    QVBoxLayout *layout = new QVBoxLayout;
+    QTreeView *treeView = new QTreeView;
     layout->addWidget(treeView);
     layout->addLayout(hLayout1);
     layout->addStretch(1);
     w.contentWidget()->setLayout(layout);
     // w.setWindowTitleHeight(40);
-    w.show();
+    // w.show();
+    w.showMaximized();
 
     return a.exec();
 }

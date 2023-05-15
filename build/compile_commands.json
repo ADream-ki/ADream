@@ -55,6 +55,12 @@
 },
 {
   "directory": "D:/ADream/build/Moudles",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DMoudles_EXPORTS -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Moudles.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Moudles.dir\\Config.cpp.obj -c D:\\ADream\\Moudles\\Config.cpp",
+  "file": "D:/ADream/Moudles/Config.cpp",
+  "output": "Moudles/CMakeFiles/Moudles.dir/Config.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Moudles",
   "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DMoudles_EXPORTS -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Moudles.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Moudles.dir\\TitleBar.cpp.obj -c D:\\ADream\\Moudles\\TitleBar.cpp",
   "file": "D:/ADream/Moudles/TitleBar.cpp",
   "output": "Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj"

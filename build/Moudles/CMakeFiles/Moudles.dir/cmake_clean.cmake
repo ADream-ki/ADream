@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Moudles.dir/BaseWindow.cpp.obj"
   "CMakeFiles/Moudles.dir/BaseWindow.cpp.obj.d"
+  "CMakeFiles/Moudles.dir/Config.cpp.obj"
+  "CMakeFiles/Moudles.dir/Config.cpp.obj.d"
   "CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/Moudles.dir/TitleBar.cpp.obj"

@@ -13,6 +13,7 @@
 #include <QVBoxLayout>
 #include "TitleBar.h"
 #include "../Controls/Mouse/ADBorderContainer.h"
+#include "Config.h"
 
 class BaseWindow : public QFrame
 {
@@ -23,9 +24,10 @@ public:
     QWidget *contentWidget();
 
 private:
-    QWidget *m_contentWidget;       // 内容组件
-    TitleBar *m_titleBar;           // 标题栏
-    QVBoxLayout *m_layout;          // 布局管理器
-    ADBorderContainer *m_container; // 最外层容器
+    Config *config = Config::getInstance(); // 全局变量
+    QWidget *m_contentWidget;               // 内容组件
+    TitleBar *m_titleBar;                   // 标题栏
+    QVBoxLayout *m_layout;                  // 布局管理器
+    ADBorderContainer *m_container;         // 最外层容器
 };
 #endif // BASEWINDOW_H

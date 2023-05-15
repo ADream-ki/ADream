@@ -15,6 +15,7 @@
 #include <QPalette>
 #include <QApplication>
 #include "../Controls/ADButton.h"
+#include "Config.h"
 
 class TitleBar : public QWidget
 {
@@ -39,6 +40,8 @@ protected slots:
     void onClicked();
 
 private:
+    Config *config = Config::getInstance();
+
     QLabel *m_iconLabel;
     QLabel *m_titleLabel;
     ADButton *m_minimizeButton;

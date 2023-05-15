@@ -2,7 +2,7 @@
  * @Description: 软件配置类，单例模式
  * @Author: Xiao
  * @Date: 2023-05-10 19:55:57
- * @LastEditTime: 2023-05-15 21:39:10
+ * @LastEditTime: 2023-05-15 23:00:45
  * @LastEditors: Xiao
  */
 #ifndef CONFIG_H
@@ -30,7 +30,11 @@ private:
     // 添加私有静态指针变量指向该类的唯一实例
     static Config *instance;
 
+public:
     // 全局变量
+    int Min_width = 800; // 最小化时的尺寸，随着窗体的拉伸而修改
+    int Min_height = 400;
+    bool isMaxScreen = true; // 是否全屏，默认全屏
 };
 
 #endif // CONFIG_H

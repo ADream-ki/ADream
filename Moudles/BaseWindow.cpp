@@ -12,7 +12,7 @@ BaseWindow::BaseWindow(QFrame *parent) : QFrame(parent)
     setWindowFlags(windowFlags() | Qt::FramelessWindowHint);
 
     // m_container = new ADBorderContainer(this);
-
+    setMinimumSize(config->Min_width, config->Min_height);
     m_titleBar = new TitleBar(":LOGO",
                               "ADream", 20, this);
 

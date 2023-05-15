@@ -399,7 +399,12 @@ Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qinputmethod.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
- D:/ADream/Controls/ADButton.h \
- D:/ADream/Controls/Mouse/ADBorderContainer.h \
- D:/ADream/Controls/Mouse/ADWidgetMove.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QObject
+ D:/ADream/Controls/ADButton.h D:\ADream\Moudles\Config.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QMutex \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qtsan_impl.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QMutexLocker \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
+ D:/ADream/Controls/Mouse/ADBorderContainer.h

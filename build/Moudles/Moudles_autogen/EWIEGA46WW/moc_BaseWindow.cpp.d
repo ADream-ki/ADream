@@ -2,8 +2,12 @@ D:/ADream/build/Moudles/Moudles_autogen/EWIEGA46WW/moc_BaseWindow.cpp: D:/ADream
   D:/ADream/build/Moudles/Moudles_autogen/moc_predefs.h \
   D:/ADream/Controls/ADButton.h \
   D:/ADream/Controls/Mouse/ADBorderContainer.h \
+  D:/ADream/Moudles/Config.h \
   D:/ADream/Moudles/TitleBar.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QMutex \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/QMutexLocker \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
@@ -66,6 +70,7 @@ D:/ADream/build/Moudles/Moudles_autogen/EWIEGA46WW/moc_BaseWindow.cpp: D:/ADream
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmetacontainer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmetatype.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qminmax.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qnumeric.h \
@@ -112,6 +117,7 @@ D:/ADream/build/Moudles/Moudles_autogen/EWIEGA46WW/moc_BaseWindow.cpp: D:/ADream
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtnoop.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtresource.h \
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qtsan_impl.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qttranslation.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qttypetraits.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtversion.h \

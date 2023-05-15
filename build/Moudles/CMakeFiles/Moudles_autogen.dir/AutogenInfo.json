@@ -16,12 +16,7 @@
 			"EWIEGA46WW/moc_BaseWindow.cpp",
 			null
 		],
-		[
-			"D:/ADream/Moudles/Setting.h",
-			"MU",
-			"EWIEGA46WW/moc_Setting.cpp",
-			null
-		],
+		[ "D:/ADream/Moudles/Config.h", "MU", "EWIEGA46WW/moc_Config.cpp", null ],
 		[
 			"D:/ADream/Moudles/TitleBar.h",
 			"MU",
@@ -102,6 +97,7 @@
 	"SOURCES" : 
 	[
 		[ "D:/ADream/Moudles/BaseWindow.cpp", "MU", null ],
+		[ "D:/ADream/Moudles/Config.cpp", "MU", null ],
 		[ "D:/ADream/Moudles/TitleBar.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

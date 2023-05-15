@@ -31,7 +31,7 @@ Config *Config::getInstance()
     return instance; // 返回指针
 }
 
-Config::Config(QObject *parent) : QObject(parent),
+Config::Config(QObject *parent) : QObject(parent)
 {
 }
 

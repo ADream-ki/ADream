@@ -38,7 +38,14 @@ void TitleBar::initWidget(QWidget *parent)
     m_minimizeButton = new ADButton(":None", 20, 20, this);
     layout->addWidget(m_minimizeButton);
 
-    m_maximizeButton = new ADButton(":Main-max", 20, 20, this);
+    if (config->isMaxScreen)
+    {
+        m_maximizeButton = new ADButton(":Main-min", 20, 20, this);
+    }
+    else
+    {
+        m_maximizeButton = new ADButton(":Main-max", 20, 20, this);
+    }
     layout->addWidget(m_maximizeButton);
 
     m_closeButton = new ADButton(":Close", 20, 20, this);
@@ -97,7 +104,7 @@ void TitleBar::onClicked()
             Window->showMinimized();
         }
         else if (button == m_maximizeButton)
-        {
+        { // resize(config->Min_width, config->Min_height)
             Window->isMaximized() ? Window->showNormal() : Window->showMaximized();
             Window->isMaximized() ? m_maximizeButton->setIco(":Main-min") : m_maximizeButton->setIco(":Main-max");
         }
