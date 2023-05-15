@@ -1,7 +1,7 @@
 D:/ADream/build/Moudles/Moudles_autogen/EWIEGA46WW/moc_BaseWindow.cpp: D:/ADream/Moudles/BaseWindow.h \
   D:/ADream/build/Moudles/Moudles_autogen/moc_predefs.h \
-  D:/ADream/Controls/ADBorderContainer.h \
   D:/ADream/Controls/ADButton.h \
+  D:/ADream/Controls/Mouse/ADBorderContainer.h \
   D:/ADream/Moudles/TitleBar.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \

@@ -327,22 +327,6 @@ bool ADBorderContainer::eventFilter(QObject *watched, QEvent *event)
             doResizeEvent(event);
         }
     }
-    else if (watched == titleBar)
-    {
-        // 双击标题栏发出双击信号给主界面
-        // 下面的 *result = HTCAPTION; 标志位也会自动识别双击标题栏
-#ifndef Q_OS_WIN
-        if (event->type() == QEvent::MouseButtonDblClick)
-        {
-            emit titleDblClick();
-        }
-        else if (event->type() == QEvent::NonClientAreaMouseButtonDblClick)
-        {
-            emit titleDblClick();
-        }
-#endif
-    }
-
     return QWidget::eventFilter(watched, event);
 }
 

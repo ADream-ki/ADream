@@ -6,7 +6,7 @@
  * @LastEditors: Xiao
  */
 #include "TitleBar.h"
-#include "../Controls/ADWidgetMove.h"
+#include "../Controls/Mouse/ADWidgetMove.h"
 
 void TitleBar::initWidget(QWidget *parent)
 {

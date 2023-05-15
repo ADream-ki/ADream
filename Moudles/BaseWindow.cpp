@@ -7,8 +7,6 @@
  */
 #include "BaseWindow.h"
 
-#include "../Controls/ADWidgetMove.h"
-
 BaseWindow::BaseWindow(QFrame *parent) : QFrame(parent)
 {
     setWindowFlags(windowFlags() | Qt::FramelessWindowHint);

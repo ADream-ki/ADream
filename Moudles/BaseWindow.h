@@ -12,7 +12,7 @@
 #include <QWidget>
 #include <QVBoxLayout>
 #include "TitleBar.h"
-#include "../Controls/ADBorderContainer.h"
+#include "../Controls/Mouse/ADBorderContainer.h"
 
 class BaseWindow : public QFrame
 {

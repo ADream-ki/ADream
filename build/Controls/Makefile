@@ -143,30 +143,6 @@ Controls_autogen/fast:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls_autogen.dir\build.make Controls/CMakeFiles/Controls_autogen.dir/build
 .PHONY : Controls_autogen/fast
 
-ADBorderContainer.obj: ADBorderContainer.cpp.obj
-.PHONY : ADBorderContainer.obj
-
-# target to build an object file
-ADBorderContainer.cpp.obj:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj
-.PHONY : ADBorderContainer.cpp.obj
-
-ADBorderContainer.i: ADBorderContainer.cpp.i
-.PHONY : ADBorderContainer.i
-
-# target to preprocess a source file
-ADBorderContainer.cpp.i:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.i
-.PHONY : ADBorderContainer.cpp.i
-
-ADBorderContainer.s: ADBorderContainer.cpp.s
-.PHONY : ADBorderContainer.s
-
-# target to generate assembly for a file
-ADBorderContainer.cpp.s:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.s
-.PHONY : ADBorderContainer.cpp.s
-
 ADButton.obj: ADButton.cpp.obj
 .PHONY : ADButton.obj
 
@@ -190,30 +166,6 @@ ADButton.s: ADButton.cpp.s
 ADButton.cpp.s:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADButton.cpp.s
 .PHONY : ADButton.cpp.s
-
-ADWidgetMove.obj: ADWidgetMove.cpp.obj
-.PHONY : ADWidgetMove.obj
-
-# target to build an object file
-ADWidgetMove.cpp.obj:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj
-.PHONY : ADWidgetMove.cpp.obj
-
-ADWidgetMove.i: ADWidgetMove.cpp.i
-.PHONY : ADWidgetMove.i
-
-# target to preprocess a source file
-ADWidgetMove.cpp.i:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.i
-.PHONY : ADWidgetMove.cpp.i
-
-ADWidgetMove.s: ADWidgetMove.cpp.s
-.PHONY : ADWidgetMove.s
-
-# target to generate assembly for a file
-ADWidgetMove.cpp.s:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.s
-.PHONY : ADWidgetMove.cpp.s
 
 Controls_autogen/mocs_compilation.obj: Controls_autogen/mocs_compilation.cpp.obj
 .PHONY : Controls_autogen/mocs_compilation.obj
@@ -239,6 +191,54 @@ Controls_autogen/mocs_compilation.cpp.s:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.s
 .PHONY : Controls_autogen/mocs_compilation.cpp.s
 
+Mouse/ADBorderContainer.obj: Mouse/ADBorderContainer.cpp.obj
+.PHONY : Mouse/ADBorderContainer.obj
+
+# target to build an object file
+Mouse/ADBorderContainer.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj
+.PHONY : Mouse/ADBorderContainer.cpp.obj
+
+Mouse/ADBorderContainer.i: Mouse/ADBorderContainer.cpp.i
+.PHONY : Mouse/ADBorderContainer.i
+
+# target to preprocess a source file
+Mouse/ADBorderContainer.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.i
+.PHONY : Mouse/ADBorderContainer.cpp.i
+
+Mouse/ADBorderContainer.s: Mouse/ADBorderContainer.cpp.s
+.PHONY : Mouse/ADBorderContainer.s
+
+# target to generate assembly for a file
+Mouse/ADBorderContainer.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.s
+.PHONY : Mouse/ADBorderContainer.cpp.s
+
+Mouse/ADWidgetMove.obj: Mouse/ADWidgetMove.cpp.obj
+.PHONY : Mouse/ADWidgetMove.obj
+
+# target to build an object file
+Mouse/ADWidgetMove.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj
+.PHONY : Mouse/ADWidgetMove.cpp.obj
+
+Mouse/ADWidgetMove.i: Mouse/ADWidgetMove.cpp.i
+.PHONY : Mouse/ADWidgetMove.i
+
+# target to preprocess a source file
+Mouse/ADWidgetMove.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.i
+.PHONY : Mouse/ADWidgetMove.cpp.i
+
+Mouse/ADWidgetMove.s: Mouse/ADWidgetMove.cpp.s
+.PHONY : Mouse/ADWidgetMove.s
+
+# target to generate assembly for a file
+Mouse/ADWidgetMove.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.s
+.PHONY : Mouse/ADWidgetMove.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -249,18 +249,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Controls_autogen
 	@echo ... Controls
-	@echo ... ADBorderContainer.obj
-	@echo ... ADBorderContainer.i
-	@echo ... ADBorderContainer.s
 	@echo ... ADButton.obj
 	@echo ... ADButton.i
 	@echo ... ADButton.s
-	@echo ... ADWidgetMove.obj
-	@echo ... ADWidgetMove.i
-	@echo ... ADWidgetMove.s
 	@echo ... Controls_autogen/mocs_compilation.obj
 	@echo ... Controls_autogen/mocs_compilation.i
 	@echo ... Controls_autogen/mocs_compilation.s
+	@echo ... Mouse/ADBorderContainer.obj
+	@echo ... Mouse/ADBorderContainer.i
+	@echo ... Mouse/ADBorderContainer.s
+	@echo ... Mouse/ADWidgetMove.obj
+	@echo ... Mouse/ADWidgetMove.i
+	@echo ... Mouse/ADWidgetMove.s
 .PHONY : help
 
 

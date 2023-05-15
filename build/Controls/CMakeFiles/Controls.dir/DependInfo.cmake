@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/ADream/Controls/ADBorderContainer.cpp" "Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj.d"
   "D:/ADream/Controls/ADButton.cpp" "Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj.d"
-  "D:/ADream/Controls/ADWidgetMove.cpp" "Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj.d"
   "D:/ADream/build/Controls/Controls_autogen/mocs_compilation.cpp" "Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj.d"
+  "D:/ADream/Controls/Mouse/ADBorderContainer.cpp" "Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj.d"
+  "D:/ADream/Controls/Mouse/ADWidgetMove.cpp" "Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

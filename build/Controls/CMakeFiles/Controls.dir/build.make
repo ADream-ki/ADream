@@ -83,26 +83,11 @@ Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.s"
 	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ADream\build\Controls\Controls_autogen\mocs_compilation.cpp -o CMakeFiles\Controls.dir\Controls_autogen\mocs_compilation.cpp.s
 
-Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj: Controls/CMakeFiles/Controls.dir/flags.make
-Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj: Controls/CMakeFiles/Controls.dir/includes_CXX.rsp
-Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj: D:/ADream/Controls/ADBorderContainer.cpp
-Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj: Controls/CMakeFiles/Controls.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj"
-	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj -MF CMakeFiles\Controls.dir\ADBorderContainer.cpp.obj.d -o CMakeFiles\Controls.dir\ADBorderContainer.cpp.obj -c D:\ADream\Controls\ADBorderContainer.cpp
-
-Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controls.dir/ADBorderContainer.cpp.i"
-	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ADream\Controls\ADBorderContainer.cpp > CMakeFiles\Controls.dir\ADBorderContainer.cpp.i
-
-Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controls.dir/ADBorderContainer.cpp.s"
-	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ADream\Controls\ADBorderContainer.cpp -o CMakeFiles\Controls.dir\ADBorderContainer.cpp.s
-
 Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj: Controls/CMakeFiles/Controls.dir/flags.make
 Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj: Controls/CMakeFiles/Controls.dir/includes_CXX.rsp
 Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj: D:/ADream/Controls/ADButton.cpp
 Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj: Controls/CMakeFiles/Controls.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj"
 	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj -MF CMakeFiles\Controls.dir\ADButton.cpp.obj.d -o CMakeFiles\Controls.dir\ADButton.cpp.obj -c D:\ADream\Controls\ADButton.cpp
 
 Controls/CMakeFiles/Controls.dir/ADButton.cpp.i: cmake_force
@@ -113,35 +98,50 @@ Controls/CMakeFiles/Controls.dir/ADButton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controls.dir/ADButton.cpp.s"
 	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ADream\Controls\ADButton.cpp -o CMakeFiles\Controls.dir\ADButton.cpp.s
 
-Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj: Controls/CMakeFiles/Controls.dir/flags.make
-Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj: Controls/CMakeFiles/Controls.dir/includes_CXX.rsp
-Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj: D:/ADream/Controls/ADWidgetMove.cpp
-Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj: Controls/CMakeFiles/Controls.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj"
-	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj -MF CMakeFiles\Controls.dir\ADWidgetMove.cpp.obj.d -o CMakeFiles\Controls.dir\ADWidgetMove.cpp.obj -c D:\ADream\Controls\ADWidgetMove.cpp
+Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj: Controls/CMakeFiles/Controls.dir/flags.make
+Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj: Controls/CMakeFiles/Controls.dir/includes_CXX.rsp
+Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj: D:/ADream/Controls/Mouse/ADBorderContainer.cpp
+Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj: Controls/CMakeFiles/Controls.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj"
+	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj -MF CMakeFiles\Controls.dir\Mouse\ADBorderContainer.cpp.obj.d -o CMakeFiles\Controls.dir\Mouse\ADBorderContainer.cpp.obj -c D:\ADream\Controls\Mouse\ADBorderContainer.cpp
 
-Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controls.dir/ADWidgetMove.cpp.i"
-	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ADream\Controls\ADWidgetMove.cpp > CMakeFiles\Controls.dir\ADWidgetMove.cpp.i
+Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.i"
+	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ADream\Controls\Mouse\ADBorderContainer.cpp > CMakeFiles\Controls.dir\Mouse\ADBorderContainer.cpp.i
 
-Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controls.dir/ADWidgetMove.cpp.s"
-	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ADream\Controls\ADWidgetMove.cpp -o CMakeFiles\Controls.dir\ADWidgetMove.cpp.s
+Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.s"
+	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ADream\Controls\Mouse\ADBorderContainer.cpp -o CMakeFiles\Controls.dir\Mouse\ADBorderContainer.cpp.s
+
+Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj: Controls/CMakeFiles/Controls.dir/flags.make
+Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj: Controls/CMakeFiles/Controls.dir/includes_CXX.rsp
+Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj: D:/ADream/Controls/Mouse/ADWidgetMove.cpp
+Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj: Controls/CMakeFiles/Controls.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj"
+	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj -MF CMakeFiles\Controls.dir\Mouse\ADWidgetMove.cpp.obj.d -o CMakeFiles\Controls.dir\Mouse\ADWidgetMove.cpp.obj -c D:\ADream\Controls\Mouse\ADWidgetMove.cpp
+
+Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.i"
+	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ADream\Controls\Mouse\ADWidgetMove.cpp > CMakeFiles\Controls.dir\Mouse\ADWidgetMove.cpp.i
+
+Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.s"
+	cd /d D:\ADream\build\Controls && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ADream\Controls\Mouse\ADWidgetMove.cpp -o CMakeFiles\Controls.dir\Mouse\ADWidgetMove.cpp.s
 
 # Object files for target Controls
 Controls_OBJECTS = \
 "CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj" \
 "CMakeFiles/Controls.dir/ADButton.cpp.obj" \
-"CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj"
+"CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj" \
+"CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj"
 
 # External object files for target Controls
 Controls_EXTERNAL_OBJECTS =
 
 D:/ADream/bin/libControls.dll: Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj
-D:/ADream/bin/libControls.dll: Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj
 D:/ADream/bin/libControls.dll: Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj
-D:/ADream/bin/libControls.dll: Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj
+D:/ADream/bin/libControls.dll: Controls/CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj
+D:/ADream/bin/libControls.dll: Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj
 D:/ADream/bin/libControls.dll: Controls/CMakeFiles/Controls.dir/build.make
 D:/ADream/bin/libControls.dll: D:/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a
 D:/ADream/bin/libControls.dll: D:/Qt/6.5.0/mingw_64/lib/libQt6Gui.a
