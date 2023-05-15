@@ -399,5 +399,6 @@ Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qinputmethod.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
- D:/ADream/Controls/ADButton.h D:/ADream/Controls/ADWidgetMove.h \
+ D:/ADream/Controls/ADButton.h D:/ADream/Controls/ADBorderContainer.h \
+ D:/ADream/Controls/ADWidgetMove.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject

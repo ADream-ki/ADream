@@ -1,4 +1,5 @@
 #include "ADBorderContainer.h"
+#include <QEvent>
 
 #ifdef Q_OS_WIN
 #include "windows.h"
@@ -44,6 +45,10 @@ ADBorderContainer::ADBorderContainer(QWidget *parent) : QWidget(parent)
     DWORD style = ::GetWindowLong(hwnd, GWL_STYLE);
     ::SetWindowLong(hwnd, GWL_STYLE, style | WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION);
 #endif
+}
+
+ADBorderContainer::~ADBorderContainer()
+{
 }
 
 void ADBorderContainer::showEvent(QShowEvent *event)
@@ -341,11 +346,7 @@ bool ADBorderContainer::eventFilter(QObject *watched, QEvent *event)
     return QWidget::eventFilter(watched, event);
 }
 
-#if (QT_VERSION >= QT_VERSION_CHECK(6, 0, 0))
 bool ADBorderContainer::nativeEvent(const QByteArray &eventType, void *message, qintptr *result)
-#else
-bool ADBorderContainer::nativeEvent(const QByteArray &eventType, void *message, long *result)
-#endif
 {
     if (eventType == "windows_generic_MSG")
     {
@@ -461,15 +462,6 @@ bool ADBorderContainer::nativeEvent(const QByteArray &eventType, void *message, 
     }
     return false;
 }
-
-#if (QT_VERSION < QT_VERSION_CHECK(5, 0, 0))
-#ifdef Q_OS_WIN
-bool ADBorderContainer::winEvent(MSG *message, long *result)
-{
-    return nativeEvent("windows_generic_MSG", message, result);
-}
-#endif
-#endif
 
 void ADBorderContainer::setPadding(int padding)
 {

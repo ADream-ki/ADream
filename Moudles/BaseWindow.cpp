@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-08 18:33:40
- * @LastEditTime: 2023-05-15 09:32:23
+ * @LastEditTime: 2023-05-15 21:08:51
  * @LastEditors: Xiao
  */
 #include "BaseWindow.h"
@@ -12,6 +12,8 @@
 BaseWindow::BaseWindow(QFrame *parent) : QFrame(parent)
 {
     setWindowFlags(windowFlags() | Qt::FramelessWindowHint);
+
+    // m_container = new ADBorderContainer(this);
 
     m_titleBar = new TitleBar(":LOGO",
                               "ADream", 20, this);
@@ -24,7 +26,6 @@ BaseWindow::BaseWindow(QFrame *parent) : QFrame(parent)
     m_layout->setSpacing(0);
     m_layout->setContentsMargins(0, 0, 0, 0);
 
-    setLayout(m_layout);
 }
 
 void BaseWindow::setWindowTitle(const QString &title)

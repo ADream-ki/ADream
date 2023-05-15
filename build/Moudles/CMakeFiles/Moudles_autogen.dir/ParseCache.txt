@@ -3,6 +3,7 @@ D:/ADream/Moudles/BaseWindow.h
  mmc:Q_OBJECT
  mdp:D:/ADream/Moudles/BaseWindow.h
  mdp:D:/ADream/build/Moudles/Moudles_autogen/moc_predefs.h
+ mdp:D:/ADream/Controls/ADBorderContainer.h
  mdp:D:/ADream/Controls/ADButton.h
  mdp:D:/ADream/Moudles/TitleBar.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtCore/QList
@@ -399,8 +400,8 @@ D:/ADream/Moudles/BaseWindow.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
-D:/ADream/Moudles/TitleBar.cpp
 D:/ADream/Moudles/Setting.h
+D:/ADream/Moudles/TitleBar.cpp
 D:/ADream/Moudles/TitleBar.h
  mmc:Q_OBJECT
  mdp:D:/ADream/Moudles/TitleBar.h

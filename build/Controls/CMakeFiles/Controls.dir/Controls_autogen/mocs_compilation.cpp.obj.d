@@ -1,7 +1,7 @@
 Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: \
  D:\ADream\build\Controls\Controls_autogen\mocs_compilation.cpp \
- D:\ADream\build\Controls\Controls_autogen\EWIEGA46WW/moc_ADButton.cpp \
- D:/ADream/Controls/ADButton.h \
+ D:\ADream\build\Controls\Controls_autogen\EWIEGA46WW/moc_ADBorderContainer.cpp \
+ D:/ADream/Controls/ADBorderContainer.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -350,6 +350,9 @@ Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
+ D:\ADream\build\Controls\Controls_autogen\EWIEGA46WW/moc_ADButton.cpp \
+ D:/ADream/Controls/ADButton.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/QMouseEvent \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qevent.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h \
@@ -384,7 +387,6 @@ Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextformat.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
  D:\ADream\build\Controls\Controls_autogen\EWIEGA46WW/moc_ADWidgetMove.cpp \
  D:/ADream/Controls/ADWidgetMove.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject
