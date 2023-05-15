@@ -1,0 +1,22 @@
+<RCC>
+    <qresource>
+        <file alias="Add">./res/add.ico</file>
+        <file alias="LOGO">./res/ADream.ico</file>
+        <file alias="Close">./res/close.ico</file>
+        <file alias="List">./res/list.ico</file>
+        <file alias="Main-max">./res/Main-max.ico</file>
+        <file alias="Main-min">./res/Main-min.ico</file>
+        <file alias="Max">./res/max.ico</file>
+        <file alias="Min">./res/min.ico</file>
+        <file alias="More">./res/more.ico</file>
+        <file alias="None">./res/none.ico</file>
+        <file alias="Priview-close">./res/priview-close.ico</file>
+        <file alias="Priview-open">./res/priview-open.ico</file>
+        <file alias="Save">./res/save.ico</file>
+        <file alias="Setting">./res/setting.ico</file>
+    </qresource>
+
+    <qresource>
+    
+    </qresource>
+</RCC>

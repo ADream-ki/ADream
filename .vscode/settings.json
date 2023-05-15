@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.m": "matlab",
+    "qhboxlayout": "cpp",
+    "qmouseevent": "cpp",
+    "qpalette": "cpp",
+    "new": "cpp",
+    "qtreeview": "cpp",
+    "qwidget": "cpp"
+  }
+}

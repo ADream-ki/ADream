@@ -1,0 +1,62 @@
+[
+{
+  "directory": "D:/ADream/build",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ADream.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ADream.dir\\ADream_autogen\\mocs_compilation.cpp.obj -c D:\\ADream\\build\\ADream_autogen\\mocs_compilation.cpp",
+  "file": "D:/ADream/build/ADream_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/ADream.dir/ADream_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ADream.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ADream.dir\\main.cpp.obj -c D:\\ADream\\main.cpp",
+  "file": "D:/ADream/main.cpp",
+  "output": "CMakeFiles/ADream.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/ADream.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ADream.dir\\qrc_resources.cpp.obj -c D:\\ADream\\build\\qrc_resources.cpp",
+  "file": "D:/ADream/build/qrc_resources.cpp",
+  "output": "CMakeFiles/ADream.dir/qrc_resources.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Controls",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\Controls_autogen\\mocs_compilation.cpp.obj -c D:\\ADream\\build\\Controls\\Controls_autogen\\mocs_compilation.cpp",
+  "file": "D:/ADream/build/Controls/Controls_autogen/mocs_compilation.cpp",
+  "output": "Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Controls",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\ADBorderContainer.cpp.obj -c D:\\ADream\\Controls\\ADBorderContainer.cpp",
+  "file": "D:/ADream/Controls/ADBorderContainer.cpp",
+  "output": "Controls/CMakeFiles/Controls.dir/ADBorderContainer.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Controls",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\ADButton.cpp.obj -c D:\\ADream\\Controls\\ADButton.cpp",
+  "file": "D:/ADream/Controls/ADButton.cpp",
+  "output": "Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Controls",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\ADWidgetMove.cpp.obj -c D:\\ADream\\Controls\\ADWidgetMove.cpp",
+  "file": "D:/ADream/Controls/ADWidgetMove.cpp",
+  "output": "Controls/CMakeFiles/Controls.dir/ADWidgetMove.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Moudles",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DMoudles_EXPORTS -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Moudles.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Moudles.dir\\Moudles_autogen\\mocs_compilation.cpp.obj -c D:\\ADream\\build\\Moudles\\Moudles_autogen\\mocs_compilation.cpp",
+  "file": "D:/ADream/build/Moudles/Moudles_autogen/mocs_compilation.cpp",
+  "output": "Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Moudles",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DMoudles_EXPORTS -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Moudles.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Moudles.dir\\BaseWindow.cpp.obj -c D:\\ADream\\Moudles\\BaseWindow.cpp",
+  "file": "D:/ADream/Moudles/BaseWindow.cpp",
+  "output": "Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Moudles",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DMoudles_EXPORTS -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Moudles.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Moudles.dir\\TitleBar.cpp.obj -c D:\\ADream\\Moudles\\TitleBar.cpp",
+  "file": "D:/ADream/Moudles/TitleBar.cpp",
+  "output": "Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj"
+}
+]

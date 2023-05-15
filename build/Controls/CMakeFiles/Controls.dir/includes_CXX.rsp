@@ -1,0 +1,1 @@
+-ID:/ADream/build/Controls -ID:/ADream/Controls -ID:/ADream/build/Controls/Controls_autogen/include -isystem D:/Qt/6.5.0/mingw_64/include/QtCore -isystem D:/Qt/6.5.0/mingw_64/include -isystem "D:/Qt/6.5.0/mingw_64/mkspecs/win32-g++" -isystem D:/Qt/6.5.0/mingw_64/include/QtGui -isystem D:/VulkanSDK/1.3.243.0/Include -isystem D:/Qt/6.5.0/mingw_64/include/QtWidgets

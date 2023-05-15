@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\ADream.dir/objects.a
+D:\mingw1120_64\bin\ar.exe qc CMakeFiles\ADream.dir/objects.a @CMakeFiles\ADream.dir\objects1.rsp
+D:\mingw1120_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ADream.dir/objects.a -Wl,--no-whole-archive -o D:\ADream\bin\ADream.exe -Wl,--out-implib,D:\ADream\bin\libADream.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ADream.dir\linkLibs.rsp

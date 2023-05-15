@@ -1,0 +1,12 @@
+D:/ADream/build/CMakeFiles/ADream.dir
+D:/ADream/build/CMakeFiles/edit_cache.dir
+D:/ADream/build/CMakeFiles/rebuild_cache.dir
+D:/ADream/build/CMakeFiles/ADream_autogen.dir
+D:/ADream/build/Controls/CMakeFiles/Controls.dir
+D:/ADream/build/Controls/CMakeFiles/edit_cache.dir
+D:/ADream/build/Controls/CMakeFiles/rebuild_cache.dir
+D:/ADream/build/Controls/CMakeFiles/Controls_autogen.dir
+D:/ADream/build/Moudles/CMakeFiles/Moudles.dir
+D:/ADream/build/Moudles/CMakeFiles/edit_cache.dir
+D:/ADream/build/Moudles/CMakeFiles/rebuild_cache.dir
+D:/ADream/build/Moudles/CMakeFiles/Moudles_autogen.dir
