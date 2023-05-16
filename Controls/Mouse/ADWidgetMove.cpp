@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-11 21:15:51
- * @LastEditTime: 2023-05-14 23:40:45
+ * @LastEditTime: 2023-05-16 12:07:59
  * @LastEditors: Xiao
  */
 #include "ADWidgetMove.h"
@@ -13,7 +13,9 @@ ADWidgetMove::ADWidgetMove(QObject *parent) : QObject(parent)
     pressed = false;
     leftButton = true;
     inControl = true;
-    widget = 0;
+    control_widget = 0;
+    event_widget = 0;
+
 }
 
 ADWidgetMove::~ADWidgetMove()
@@ -22,7 +24,7 @@ ADWidgetMove::~ADWidgetMove()
 
 bool ADWidgetMove::eventFilter(QObject *watched, QEvent *event)
 {
-    if (widget && watched == widget)
+    if (control_widget && watched == event_widget) // watch 过滤对象
     {
         QMouseEvent *mouseEvent = (QMouseEvent *)event;
         if (mouseEvent->type() == QEvent::MouseButtonPress)
@@ -34,7 +36,7 @@ bool ADWidgetMove::eventFilter(QObject *watched, QEvent *event)
             }
 
             // 判断控件的区域是否包含了当前鼠标的坐标
-            if (widget->rect().contains(mouseEvent->pos()))
+            if (event_widget->rect().contains(mouseEvent->pos()))
             {
                 lastPoint = mouseEvent->pos();
                 pressed = true;
@@ -45,15 +47,15 @@ bool ADWidgetMove::eventFilter(QObject *watched, QEvent *event)
             // 计算坐标偏移值,调用move函数移动过去
             int offsetX = mouseEvent->pos().x() - lastPoint.x();
             int offsetY = mouseEvent->pos().y() - lastPoint.y();
-            int x = widget->x() + offsetX;
-            int y = widget->y() + offsetY;
+            int x = control_widget->x() + offsetX;
+            int y = control_widget->y() + offsetY;
             if (inControl)
             {
                 // 可以自行调整限定在容器中的范围,这里默认保留20个像素在里面
                 int offset = 20;
-                bool xyOut = (x + widget->width() < offset || y + widget->height() < offset);
+                bool xyOut = (x + control_widget->width() < offset || y + control_widget->height() < offset);
                 bool whOut = false;
-                QWidget *w = (QWidget *)widget->parent();
+                QWidget *w = (QWidget *)control_widget->parent();
                 if (w)
                 {
                     whOut = (w->width() - x < offset || w->height() - y < offset);
@@ -64,7 +66,7 @@ bool ADWidgetMove::eventFilter(QObject *watched, QEvent *event)
                 }
             }
 
-            widget->move(x, y);
+            control_widget->move(x, y);
         }
         else if (mouseEvent->type() == QEvent::MouseButtonRelease && pressed)
         {
@@ -85,11 +87,12 @@ void ADWidgetMove::setInControl(bool inControl)
     this->inControl = inControl;
 }
 
-void ADWidgetMove::setWidget(QWidget *widget)
+void ADWidgetMove::setWidget(QWidget *control_widget, QWidget *event_widget)
 {
-    if (this->widget == 0)
+    if (this->control_widget == 0)
     {
-        this->widget = widget;
-        this->widget->installEventFilter(this);
+        this->control_widget = control_widget;
+        this->event_widget = event_widget;
+        this->event_widget->installEventFilter(this);
     }
 }

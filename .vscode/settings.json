@@ -6,6 +6,7 @@
     "qpalette": "cpp",
     "new": "cpp",
     "qtreeview": "cpp",
-    "qwidget": "cpp"
+    "qwidget": "cpp",
+    "qevent": "cpp"
   }
 }

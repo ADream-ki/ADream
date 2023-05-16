@@ -46,11 +46,12 @@ static constexpr auto qt_meta_stringdata_CLASSADWidgetMoveENDCLASS = QtMocHelper
     "inControl",
     "setWidget",
     "QWidget*",
-    "widget"
+    "control_widget",
+    "event_widget"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSADWidgetMoveENDCLASS_t {
-    uint offsetsAndSizes[18];
+    uint offsetsAndSizes[20];
     char stringdata0[13];
     char stringdata1[14];
     char stringdata2[1];
@@ -59,7 +60,8 @@ struct qt_meta_stringdata_CLASSADWidgetMoveENDCLASS_t {
     char stringdata5[10];
     char stringdata6[10];
     char stringdata7[9];
-    char stringdata8[7];
+    char stringdata8[15];
+    char stringdata9[13];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSADWidgetMoveENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -73,7 +75,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSADWidgetMoveENDCLASS_t qt_meta_
         QT_MOC_LITERAL(52, 9),  // "inControl"
         QT_MOC_LITERAL(62, 9),  // "setWidget"
         QT_MOC_LITERAL(72, 8),  // "QWidget*"
-        QT_MOC_LITERAL(81, 6)   // "widget"
+        QT_MOC_LITERAL(81, 14),  // "control_widget"
+        QT_MOC_LITERAL(96, 12)   // "event_widget"
     },
     "ADWidgetMove",
     "setLeftButton",
@@ -83,7 +86,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSADWidgetMoveENDCLASS_t qt_meta_
     "inControl",
     "setWidget",
     "QWidget*",
-    "widget"
+    "control_widget",
+    "event_widget"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -105,12 +109,12 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSADWidgetMoveENDCLASS[] = {
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
        1,    1,   32,    2, 0x0a,    1 /* Public */,
        4,    1,   35,    2, 0x0a,    3 /* Public */,
-       6,    1,   38,    2, 0x0a,    5 /* Public */,
+       6,    2,   38,    2, 0x0a,    5 /* Public */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::Bool,    3,
     QMetaType::Void, QMetaType::Bool,    5,
-    QMetaType::Void, 0x80000000 | 7,    8,
+    QMetaType::Void, 0x80000000 | 7, 0x80000000 | 7,    8,    9,
 
        0        // eod
 };
@@ -132,6 +136,7 @@ Q_CONSTINIT const QMetaObject ADWidgetMove::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<bool, std::false_type>,
         // method 'setWidget'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QWidget *, std::false_type>,
         QtPrivate::TypeAndForceComplete<QWidget *, std::false_type>
     >,
     nullptr
@@ -145,7 +150,7 @@ void ADWidgetMove::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         switch (_id) {
         case 0: _t->setLeftButton((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
         case 1: _t->setInControl((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
-        case 2: _t->setWidget((*reinterpret_cast< std::add_pointer_t<QWidget*>>(_a[1]))); break;
+        case 2: _t->setWidget((*reinterpret_cast< std::add_pointer_t<QWidget*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QWidget*>>(_a[2]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -154,6 +159,7 @@ void ADWidgetMove::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 2:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 1:
             case 0:
                 *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QWidget* >(); break;
             }

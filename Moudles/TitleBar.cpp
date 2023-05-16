@@ -2,13 +2,20 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-05 14:27:52
- * @LastEditTime: 2023-05-15 00:42:45
+ * @LastEditTime: 2023-05-16 09:57:24
  * @LastEditors: Xiao
  */
 #include "TitleBar.h"
 #include "../Controls/Mouse/ADWidgetMove.h"
 
-void TitleBar::initWidget(QWidget *parent)
+void TitleBar::initMove(QWidget *parent)
+{
+    // 设置移动控制
+    ADWidgetMove *moveWidget3 = new ADWidgetMove(this);
+    moveWidget3->setWidget(parent, this);
+}
+
+void TitleBar::initWidget()
 {
     // 初始化布局
     auto *layout = new QHBoxLayout;
@@ -52,9 +59,6 @@ void TitleBar::initWidget(QWidget *parent)
     layout->addWidget(m_closeButton);
 
     this->setLayout(layout);
-    // 设置移动控制
-    ADWidgetMove *moveWidget3 = new ADWidgetMove(this);
-    moveWidget3->setWidget(parent);
 
     connect(m_minimizeButton, SIGNAL(clicked()), this, SLOT(onClicked()));
     connect(m_maximizeButton, SIGNAL(clicked()), this, SLOT(onClicked()));
@@ -80,7 +84,8 @@ TitleBar::TitleBar(QString ico_url, QString name, int h,
                    QWidget *parent) : QWidget(parent)
 {
     initPar(parent);
-    initWidget(parent);
+    initWidget();
+    initMove(parent);
 }
 
 TitleBar::~TitleBar()

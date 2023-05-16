@@ -31,9 +31,11 @@ protected:
 
 private:
     // 初始化控件
-    void initWidget(QWidget *parent);
+    void initWidget();
     // 初始化对应参数
     void initPar(QWidget *parent);
+    // 设置移动
+    void initMove(QWidget *parent);
 
 protected slots:
     // 最小化、最大化/还原、关闭按钮点击时响应的槽函数

@@ -1,18 +1,21 @@
 /*
- * @Description:
+ * @Description:内容管理，同时可拉伸
  * @Author: Xiao
  * @Date: 2023-05-08 18:33:40
- * @LastEditTime: 2023-05-15 21:08:51
+ * @LastEditTime: 2023-05-16 09:24:11
  * @LastEditors: Xiao
  */
 #include "BaseWindow.h"
+#include <QEvent>
 
-BaseWindow::BaseWindow(QFrame *parent) : QFrame(parent)
+BaseWindow::BaseWindow(QWidget *parent) : QWidget(parent)
 {
     setWindowFlags(windowFlags() | Qt::FramelessWindowHint);
 
     // m_container = new ADBorderContainer(this);
+    // 设置最小尺寸
     setMinimumSize(config->Min_width, config->Min_height);
+
     m_titleBar = new TitleBar(":LOGO",
                               "ADream", 20, this);
 
@@ -26,6 +29,10 @@ BaseWindow::BaseWindow(QFrame *parent) : QFrame(parent)
 
     // m_container->
     setLayout(m_layout);
+}
+
+BaseWindow::~BaseWindow()
+{
 }
 
 void BaseWindow::setWindowTitle(const QString &title)
