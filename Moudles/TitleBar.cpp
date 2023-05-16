@@ -2,17 +2,18 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-05 14:27:52
- * @LastEditTime: 2023-05-16 09:57:24
+ * @LastEditTime: 2023-05-17 00:36:54
  * @LastEditors: Xiao
  */
 #include "TitleBar.h"
-#include "../Controls/Mouse/ADWidgetMove.h"
 
 void TitleBar::initMove(QWidget *parent)
 {
     // 设置移动控制
-    ADWidgetMove *moveWidget3 = new ADWidgetMove(this);
-    moveWidget3->setWidget(parent, this);
+    moveWidget = new ADWidgetMove(this);
+    moveWidget->setWidget(parent, this);
+
+    connect(this, SIGNAL(setisMove(bool)), moveWidget, SLOT(setisMove(bool)));
 }
 
 void TitleBar::initWidget()
@@ -110,8 +111,18 @@ void TitleBar::onClicked()
         }
         else if (button == m_maximizeButton)
         { // resize(config->Min_width, config->Min_height)
-            Window->isMaximized() ? Window->showNormal() : Window->showMaximized();
-            Window->isMaximized() ? m_maximizeButton->setIco(":Main-min") : m_maximizeButton->setIco(":Main-max");
+            if (Window->isMaximized())
+            {
+                Window->showNormal();
+                m_maximizeButton->setIco(":Main-min");
+                emit setisMove(true); // 发送信号，不能移动
+            }
+            else
+            {
+                Window->showMaximized();
+                m_maximizeButton->setIco(":Main-max");
+                emit setisMove(false); // 发送信号
+            }
         }
         else if (button == m_closeButton)
         {

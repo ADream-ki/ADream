@@ -1,6 +1,7 @@
 D:/ADream/build/Moudles/Moudles_autogen/EWIEGA46WW/moc_TitleBar.cpp: D:/ADream/Moudles/TitleBar.h \
   D:/ADream/build/Moudles/Moudles_autogen/moc_predefs.h \
   D:/ADream/Controls/ADButton.h \
+  D:/ADream/Controls/Mouse/ADWidgetMove.h \
   D:/ADream/Moudles/Config.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QList \

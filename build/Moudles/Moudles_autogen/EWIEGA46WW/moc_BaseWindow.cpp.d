@@ -2,6 +2,7 @@ D:/ADream/build/Moudles/Moudles_autogen/EWIEGA46WW/moc_BaseWindow.cpp: D:/ADream
   D:/ADream/build/Moudles/Moudles_autogen/moc_predefs.h \
   D:/ADream/Controls/ADButton.h \
   D:/ADream/Controls/FrameLessHelper/MyBorderContainer.h \
+  D:/ADream/Controls/Mouse/ADWidgetMove.h \
   D:/ADream/Moudles/Config.h \
   D:/ADream/Moudles/TitleBar.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \

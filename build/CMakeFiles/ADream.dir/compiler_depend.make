@@ -422,8 +422,9 @@ CMakeFiles/ADream.dir/main.cpp.obj: D:/ADream/main.cpp \
   D:/Qt/6.5.0/mingw_64/include/QtGui/QPalette \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
   D:/ADream/Controls/ADButton.h \
-  D:/ADream/Moudles/Config.h \
+  D:/ADream/Controls/Mouse/ADWidgetMove.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+  D:/ADream/Moudles/Config.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QMutex \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtsan_impl.h \
@@ -1271,6 +1272,8 @@ D:/Qt/6.5.0/mingw_64/include/QtGui/QTransform:
 D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h:
 
 D:/Qt/6.5.0/mingw_64/include/QtGui/QPalette:
+
+D:/ADream/Controls/Mouse/ADWidgetMove.h:
 
 D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h:
 

@@ -403,8 +403,9 @@ Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj: D:/ADream/Moudles/BaseWindow.
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/ADream/Controls/ADButton.h \
-  D:/ADream/Moudles/Config.h \
+  D:/ADream/Controls/Mouse/ADWidgetMove.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+  D:/ADream/Moudles/Config.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QMutex \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtsan_impl.h \
@@ -1138,8 +1139,9 @@ Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: Moudles
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/ADream/Controls/ADButton.h \
-  D:/ADream/Moudles/Config.h \
+  D:/ADream/Controls/Mouse/ADWidgetMove.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+  D:/ADream/Moudles/Config.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QMutex \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtsan_impl.h \
@@ -1555,15 +1557,15 @@ Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj: D:/ADream/Moudles/TitleBar.cpp 
   D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/ADream/Controls/ADButton.h \
-  D:/ADream/Moudles/Config.h \
+  D:/ADream/Controls/Mouse/ADWidgetMove.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+  D:/ADream/Moudles/Config.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QMutex \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/qtsan_impl.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QMutexLocker \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \
-  D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
-  D:/ADream/Controls/Mouse/ADWidgetMove.h
+  D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h
 
 
 D:/mingw1120_64/x86_64-w64-mingw32/include/stdint.h:
@@ -2376,6 +2378,8 @@ D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication.h:
 
 D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h:
 
+D:/ADream/Controls/Mouse/ADWidgetMove.h:
+
 D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h:
 
 D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug:
@@ -2389,5 +2393,3 @@ D:/Qt/6.5.0/mingw_64/include/QtGui/qtextcursor.h:
 D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h:
 
 Moudles/Moudles_autogen/EWIEGA46WW/moc_Config.cpp:
-
-D:/ADream/Controls/Mouse/ADWidgetMove.h:

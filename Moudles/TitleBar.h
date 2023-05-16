@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-05 14:27:42
- * @LastEditTime: 2023-05-14 21:52:30
+ * @LastEditTime: 2023-05-17 00:27:56
  * @LastEditors: Xiao
  */
 #ifndef TITLEBAR_H
@@ -15,6 +15,7 @@
 #include <QPalette>
 #include <QApplication>
 #include "../Controls/ADButton.h"
+#include "../Controls/Mouse/ADWidgetMove.h"
 #include "Config.h"
 
 class TitleBar : public QWidget
@@ -41,6 +42,10 @@ protected slots:
     // 最小化、最大化/还原、关闭按钮点击时响应的槽函数
     void onClicked();
 
+signals:
+    // 是否可以移动,最大化时不能移动
+    void setisMove(bool isMax);
+
 private:
     Config *config = Config::getInstance();
 
@@ -52,6 +57,7 @@ private:
     QPoint m_start;           // 起始点
     QPoint m_end;             // 结束点
     bool m_leftButtonPressed; // 鼠标左键按下标记
+    ADWidgetMove *moveWidget;
 };
 
 #endif // TITLEBAR_H

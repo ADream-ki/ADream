@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-11 21:15:51
- * @LastEditTime: 2023-05-16 12:07:59
+ * @LastEditTime: 2023-05-16 23:32:58
  * @LastEditors: Xiao
  */
 #include "ADWidgetMove.h"
@@ -13,9 +13,9 @@ ADWidgetMove::ADWidgetMove(QObject *parent) : QObject(parent)
     pressed = false;
     leftButton = true;
     inControl = true;
+    isMove = false;
     control_widget = 0;
     event_widget = 0;
-
 }
 
 ADWidgetMove::~ADWidgetMove()
@@ -24,7 +24,7 @@ ADWidgetMove::~ADWidgetMove()
 
 bool ADWidgetMove::eventFilter(QObject *watched, QEvent *event)
 {
-    if (control_widget && watched == event_widget) // watch 过滤对象
+    if (control_widget && watched == event_widget && isMove) // watch 过滤对象
     {
         QMouseEvent *mouseEvent = (QMouseEvent *)event;
         if (mouseEvent->type() == QEvent::MouseButtonPress)
@@ -95,4 +95,9 @@ void ADWidgetMove::setWidget(QWidget *control_widget, QWidget *event_widget)
         this->event_widget = event_widget;
         this->event_widget->installEventFilter(this);
     }
+}
+
+void ADWidgetMove::setisMove(bool ismove)
+{
+    isMove = ismove;
 }
