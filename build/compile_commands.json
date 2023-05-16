@@ -31,6 +31,18 @@
 },
 {
   "directory": "D:/ADream/build/Controls",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\FrameLessHelper\\MyBorder.cpp.obj -c D:\\ADream\\Controls\\FrameLessHelper\\MyBorder.cpp",
+  "file": "D:/ADream/Controls/FrameLessHelper/MyBorder.cpp",
+  "output": "Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Controls",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\FrameLessHelper\\MyBorderContainer.cpp.obj -c D:\\ADream\\Controls\\FrameLessHelper\\MyBorderContainer.cpp",
+  "file": "D:/ADream/Controls/FrameLessHelper/MyBorderContainer.cpp",
+  "output": "Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Controls",
   "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\Mouse\\ADWidgetMove.cpp.obj -c D:\\ADream\\Controls\\Mouse\\ADWidgetMove.cpp",
   "file": "D:/ADream/Controls/Mouse/ADWidgetMove.cpp",
   "output": "Controls/CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj"
@@ -52,18 +64,6 @@
   "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DMoudles_EXPORTS -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Moudles.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Moudles.dir\\Config.cpp.obj -c D:\\ADream\\Moudles\\Config.cpp",
   "file": "D:/ADream/Moudles/Config.cpp",
   "output": "Moudles/CMakeFiles/Moudles.dir/Config.cpp.obj"
-},
-{
-  "directory": "D:/ADream/build/Moudles",
-  "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DMoudles_EXPORTS -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Moudles.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Moudles.dir\\FrameLessHelper\\MyBorder.cpp.obj -c D:\\ADream\\Moudles\\FrameLessHelper\\MyBorder.cpp",
-  "file": "D:/ADream/Moudles/FrameLessHelper/MyBorder.cpp",
-  "output": "Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj"
-},
-{
-  "directory": "D:/ADream/build/Moudles",
-  "command": "D:\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DMoudles_EXPORTS -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Moudles.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Moudles.dir\\FrameLessHelper\\MyBorderContainer.cpp.obj -c D:\\ADream\\Moudles\\FrameLessHelper\\MyBorderContainer.cpp",
-  "file": "D:/ADream/Moudles/FrameLessHelper/MyBorderContainer.cpp",
-  "output": "Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.obj"
 },
 {
   "directory": "D:/ADream/build/Moudles",

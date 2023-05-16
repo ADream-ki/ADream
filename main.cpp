@@ -31,8 +31,6 @@ int main(int argc, char *argv[])
     layout->addLayout(hLayout1);
     layout->addStretch(1);
     w.contentWidget()->setLayout(layout);
-    // w.setWindowTitleHeight(40);
-    // w.show();
     w.showMaximized();
 
     return a.exec();

@@ -12,7 +12,9 @@ BaseWindow::BaseWindow(QWidget *parent) : QWidget(parent)
 {
     setWindowFlags(windowFlags() | Qt::FramelessWindowHint);
 
-    // m_container = new ADBorderContainer(this);
+    // 关闭QT边框
+    setMouseTracking(true);
+
     // 设置最小尺寸
     setMinimumSize(config->Min_width, config->Min_height);
 
@@ -27,8 +29,10 @@ BaseWindow::BaseWindow(QWidget *parent) : QWidget(parent)
     m_layout->setSpacing(0);
     m_layout->setContentsMargins(0, 0, 0, 0);
 
-    // m_container->
+    // border->
     setLayout(m_layout);
+    // 创建边框类容器
+    border = new MyBorderContainer(this);
 }
 
 BaseWindow::~BaseWindow()

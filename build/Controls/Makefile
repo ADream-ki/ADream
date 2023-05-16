@@ -191,6 +191,54 @@ Controls_autogen/mocs_compilation.cpp.s:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.s
 .PHONY : Controls_autogen/mocs_compilation.cpp.s
 
+FrameLessHelper/MyBorder.obj: FrameLessHelper/MyBorder.cpp.obj
+.PHONY : FrameLessHelper/MyBorder.obj
+
+# target to build an object file
+FrameLessHelper/MyBorder.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.obj
+.PHONY : FrameLessHelper/MyBorder.cpp.obj
+
+FrameLessHelper/MyBorder.i: FrameLessHelper/MyBorder.cpp.i
+.PHONY : FrameLessHelper/MyBorder.i
+
+# target to preprocess a source file
+FrameLessHelper/MyBorder.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.i
+.PHONY : FrameLessHelper/MyBorder.cpp.i
+
+FrameLessHelper/MyBorder.s: FrameLessHelper/MyBorder.cpp.s
+.PHONY : FrameLessHelper/MyBorder.s
+
+# target to generate assembly for a file
+FrameLessHelper/MyBorder.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.s
+.PHONY : FrameLessHelper/MyBorder.cpp.s
+
+FrameLessHelper/MyBorderContainer.obj: FrameLessHelper/MyBorderContainer.cpp.obj
+.PHONY : FrameLessHelper/MyBorderContainer.obj
+
+# target to build an object file
+FrameLessHelper/MyBorderContainer.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.obj
+.PHONY : FrameLessHelper/MyBorderContainer.cpp.obj
+
+FrameLessHelper/MyBorderContainer.i: FrameLessHelper/MyBorderContainer.cpp.i
+.PHONY : FrameLessHelper/MyBorderContainer.i
+
+# target to preprocess a source file
+FrameLessHelper/MyBorderContainer.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.i
+.PHONY : FrameLessHelper/MyBorderContainer.cpp.i
+
+FrameLessHelper/MyBorderContainer.s: FrameLessHelper/MyBorderContainer.cpp.s
+.PHONY : FrameLessHelper/MyBorderContainer.s
+
+# target to generate assembly for a file
+FrameLessHelper/MyBorderContainer.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.s
+.PHONY : FrameLessHelper/MyBorderContainer.cpp.s
+
 Mouse/ADWidgetMove.obj: Mouse/ADWidgetMove.cpp.obj
 .PHONY : Mouse/ADWidgetMove.obj
 
@@ -231,6 +279,12 @@ help:
 	@echo ... Controls_autogen/mocs_compilation.obj
 	@echo ... Controls_autogen/mocs_compilation.i
 	@echo ... Controls_autogen/mocs_compilation.s
+	@echo ... FrameLessHelper/MyBorder.obj
+	@echo ... FrameLessHelper/MyBorder.i
+	@echo ... FrameLessHelper/MyBorder.s
+	@echo ... FrameLessHelper/MyBorderContainer.obj
+	@echo ... FrameLessHelper/MyBorderContainer.i
+	@echo ... FrameLessHelper/MyBorderContainer.s
 	@echo ... Mouse/ADWidgetMove.obj
 	@echo ... Mouse/ADWidgetMove.i
 	@echo ... Mouse/ADWidgetMove.s

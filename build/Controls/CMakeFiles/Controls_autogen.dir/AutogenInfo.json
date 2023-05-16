@@ -17,6 +17,12 @@
 			null
 		],
 		[
+			"D:/ADream/Controls/FrameLessHelper/MyBorderContainer.h",
+			"MU",
+			"W5X43QQM2S/moc_MyBorderContainer.cpp",
+			null
+		],
+		[
 			"D:/ADream/Controls/Mouse/ADWidgetMove.h",
 			"MU",
 			"6DMSLGL6ER/moc_ADWidgetMove.cpp",
@@ -96,6 +102,12 @@
 	"SOURCES" : 
 	[
 		[ "D:/ADream/Controls/ADButton.cpp", "MU", null ],
+		[ "D:/ADream/Controls/FrameLessHelper/MyBorder.cpp", "MU", null ],
+		[
+			"D:/ADream/Controls/FrameLessHelper/MyBorderContainer.cpp",
+			"MU",
+			null
+		],
 		[ "D:/ADream/Controls/Mouse/ADWidgetMove.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

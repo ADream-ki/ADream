@@ -1,7 +1,6 @@
-Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: \
- D:\ADream\build\Controls\Controls_autogen\mocs_compilation.cpp \
- D:\ADream\build\Controls\Controls_autogen\EWIEGA46WW/moc_ADButton.cpp \
- D:/ADream/Controls/ADButton.h \
+Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.obj: \
+ D:\ADream\Controls\FrameLessHelper\MyBorderContainer.cpp \
+ D:\ADream\Controls\FrameLessHelper\MyBorderContainer.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -350,12 +349,20 @@ Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/QMouseEvent \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qevent.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qpointer.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qeventpoint.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qvector2d.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qvectornd.h \
@@ -365,7 +372,6 @@ Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
@@ -373,20 +379,4 @@ Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
  D:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtextcursor.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtextformat.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
- D:\ADream\build\Controls\Controls_autogen\W5X43QQM2S/moc_MyBorderContainer.cpp \
- D:/ADream/Controls/FrameLessHelper/MyBorderContainer.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
- D:\ADream\build\Controls\Controls_autogen\6DMSLGL6ER/moc_ADWidgetMove.cpp \
- D:/ADream/Controls/Mouse/ADWidgetMove.h
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h

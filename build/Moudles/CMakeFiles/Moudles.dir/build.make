@@ -113,41 +113,11 @@ Moudles/CMakeFiles/Moudles.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Moudles.dir/Config.cpp.s"
 	cd /d D:\ADream\build\Moudles && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ADream\Moudles\Config.cpp -o CMakeFiles\Moudles.dir\Config.cpp.s
 
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj: Moudles/CMakeFiles/Moudles.dir/flags.make
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj: Moudles/CMakeFiles/Moudles.dir/includes_CXX.rsp
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj: D:/ADream/Moudles/FrameLessHelper/MyBorder.cpp
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj: Moudles/CMakeFiles/Moudles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj"
-	cd /d D:\ADream\build\Moudles && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj -MF CMakeFiles\Moudles.dir\FrameLessHelper\MyBorder.cpp.obj.d -o CMakeFiles\Moudles.dir\FrameLessHelper\MyBorder.cpp.obj -c D:\ADream\Moudles\FrameLessHelper\MyBorder.cpp
-
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.i"
-	cd /d D:\ADream\build\Moudles && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ADream\Moudles\FrameLessHelper\MyBorder.cpp > CMakeFiles\Moudles.dir\FrameLessHelper\MyBorder.cpp.i
-
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.s"
-	cd /d D:\ADream\build\Moudles && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ADream\Moudles\FrameLessHelper\MyBorder.cpp -o CMakeFiles\Moudles.dir\FrameLessHelper\MyBorder.cpp.s
-
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.obj: Moudles/CMakeFiles/Moudles.dir/flags.make
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.obj: Moudles/CMakeFiles/Moudles.dir/includes_CXX.rsp
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.obj: D:/ADream/Moudles/FrameLessHelper/MyBorderContainer.cpp
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.obj: Moudles/CMakeFiles/Moudles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.obj"
-	cd /d D:\ADream\build\Moudles && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.obj -MF CMakeFiles\Moudles.dir\FrameLessHelper\MyBorderContainer.cpp.obj.d -o CMakeFiles\Moudles.dir\FrameLessHelper\MyBorderContainer.cpp.obj -c D:\ADream\Moudles\FrameLessHelper\MyBorderContainer.cpp
-
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.i"
-	cd /d D:\ADream\build\Moudles && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ADream\Moudles\FrameLessHelper\MyBorderContainer.cpp > CMakeFiles\Moudles.dir\FrameLessHelper\MyBorderContainer.cpp.i
-
-Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.s"
-	cd /d D:\ADream\build\Moudles && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ADream\Moudles\FrameLessHelper\MyBorderContainer.cpp -o CMakeFiles\Moudles.dir\FrameLessHelper\MyBorderContainer.cpp.s
-
 Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj: Moudles/CMakeFiles/Moudles.dir/flags.make
 Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj: Moudles/CMakeFiles/Moudles.dir/includes_CXX.rsp
 Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj: D:/ADream/Moudles/TitleBar.cpp
 Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj: Moudles/CMakeFiles/Moudles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj"
 	cd /d D:\ADream\build\Moudles && D:\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj -MF CMakeFiles\Moudles.dir\TitleBar.cpp.obj.d -o CMakeFiles\Moudles.dir\TitleBar.cpp.obj -c D:\ADream\Moudles\TitleBar.cpp
 
 Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.i: cmake_force
@@ -163,8 +133,6 @@ Moudles_OBJECTS = \
 "CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/Moudles.dir/BaseWindow.cpp.obj" \
 "CMakeFiles/Moudles.dir/Config.cpp.obj" \
-"CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj" \
-"CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.obj" \
 "CMakeFiles/Moudles.dir/TitleBar.cpp.obj"
 
 # External object files for target Moudles
@@ -173,8 +141,6 @@ Moudles_EXTERNAL_OBJECTS =
 D:/ADream/bin/libMoudles.dll: Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj
 D:/ADream/bin/libMoudles.dll: Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj
 D:/ADream/bin/libMoudles.dll: Moudles/CMakeFiles/Moudles.dir/Config.cpp.obj
-D:/ADream/bin/libMoudles.dll: Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj
-D:/ADream/bin/libMoudles.dll: Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.obj
 D:/ADream/bin/libMoudles.dll: Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj
 D:/ADream/bin/libMoudles.dll: Moudles/CMakeFiles/Moudles.dir/build.make
 D:/ADream/bin/libMoudles.dll: D:/ADream/bin/libControls.dll.a
@@ -184,7 +150,7 @@ D:/ADream/bin/libMoudles.dll: D:/Qt/6.5.0/mingw_64/lib/libQt6Core.a
 D:/ADream/bin/libMoudles.dll: Moudles/CMakeFiles/Moudles.dir/linkLibs.rsp
 D:/ADream/bin/libMoudles.dll: Moudles/CMakeFiles/Moudles.dir/objects1.rsp
 D:/ADream/bin/libMoudles.dll: Moudles/CMakeFiles/Moudles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library D:\ADream\bin\libMoudles.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library D:\ADream\bin\libMoudles.dll"
 	cd /d D:\ADream\build\Moudles && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Moudles.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -13,6 +13,7 @@
 #include <QVBoxLayout>
 #include "TitleBar.h"
 #include "Config.h"
+#include "../Controls/FrameLessHelper/MyBorderContainer.h"
 
 class BaseWindow : public QWidget
 {
@@ -28,5 +29,6 @@ private:
     QWidget *m_contentWidget;               // 内容组件
     TitleBar *m_titleBar;                   // 标题栏
     QVBoxLayout *m_layout;                  // 布局管理器
+    MyBorderContainer *border;              // 边框
 };
 #endif // BASEWINDOW_H

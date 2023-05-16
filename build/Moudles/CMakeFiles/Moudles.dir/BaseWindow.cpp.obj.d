@@ -407,5 +407,6 @@ Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QMutexLocker \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
+ D:/ADream/Controls/FrameLessHelper/MyBorderContainer.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QEvent \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h
