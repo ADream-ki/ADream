@@ -191,6 +191,54 @@ Config.cpp.s:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/Config.cpp.s
 .PHONY : Config.cpp.s
 
+FrameLessHelper/MyBorder.obj: FrameLessHelper/MyBorder.cpp.obj
+.PHONY : FrameLessHelper/MyBorder.obj
+
+# target to build an object file
+FrameLessHelper/MyBorder.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj
+.PHONY : FrameLessHelper/MyBorder.cpp.obj
+
+FrameLessHelper/MyBorder.i: FrameLessHelper/MyBorder.cpp.i
+.PHONY : FrameLessHelper/MyBorder.i
+
+# target to preprocess a source file
+FrameLessHelper/MyBorder.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.i
+.PHONY : FrameLessHelper/MyBorder.cpp.i
+
+FrameLessHelper/MyBorder.s: FrameLessHelper/MyBorder.cpp.s
+.PHONY : FrameLessHelper/MyBorder.s
+
+# target to generate assembly for a file
+FrameLessHelper/MyBorder.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.s
+.PHONY : FrameLessHelper/MyBorder.cpp.s
+
+FrameLessHelper/MyBorderContainer.obj: FrameLessHelper/MyBorderContainer.cpp.obj
+.PHONY : FrameLessHelper/MyBorderContainer.obj
+
+# target to build an object file
+FrameLessHelper/MyBorderContainer.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.obj
+.PHONY : FrameLessHelper/MyBorderContainer.cpp.obj
+
+FrameLessHelper/MyBorderContainer.i: FrameLessHelper/MyBorderContainer.cpp.i
+.PHONY : FrameLessHelper/MyBorderContainer.i
+
+# target to preprocess a source file
+FrameLessHelper/MyBorderContainer.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.i
+.PHONY : FrameLessHelper/MyBorderContainer.cpp.i
+
+FrameLessHelper/MyBorderContainer.s: FrameLessHelper/MyBorderContainer.cpp.s
+.PHONY : FrameLessHelper/MyBorderContainer.s
+
+# target to generate assembly for a file
+FrameLessHelper/MyBorderContainer.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorderContainer.cpp.s
+.PHONY : FrameLessHelper/MyBorderContainer.cpp.s
+
 Moudles_autogen/mocs_compilation.obj: Moudles_autogen/mocs_compilation.cpp.obj
 .PHONY : Moudles_autogen/mocs_compilation.obj
 
@@ -255,6 +303,12 @@ help:
 	@echo ... Config.obj
 	@echo ... Config.i
 	@echo ... Config.s
+	@echo ... FrameLessHelper/MyBorder.obj
+	@echo ... FrameLessHelper/MyBorder.i
+	@echo ... FrameLessHelper/MyBorder.s
+	@echo ... FrameLessHelper/MyBorderContainer.obj
+	@echo ... FrameLessHelper/MyBorderContainer.i
+	@echo ... FrameLessHelper/MyBorderContainer.s
 	@echo ... Moudles_autogen/mocs_compilation.obj
 	@echo ... Moudles_autogen/mocs_compilation.i
 	@echo ... Moudles_autogen/mocs_compilation.s

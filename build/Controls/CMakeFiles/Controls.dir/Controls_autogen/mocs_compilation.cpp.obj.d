@@ -385,8 +385,6 @@ Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
- D:\ADream\build\Controls\Controls_autogen\6DMSLGL6ER/moc_ADBorderContainer.cpp \
- D:/ADream/Controls/Mouse/ADBorderContainer.h \
  D:\ADream\build\Controls\Controls_autogen\6DMSLGL6ER/moc_ADWidgetMove.cpp \
  D:/ADream/Controls/Mouse/ADWidgetMove.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject

@@ -409,7 +409,6 @@ Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QMutexLocker \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
- D:/ADream/Controls/Mouse/ADBorderContainer.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextcursor.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextformat.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
@@ -417,5 +416,7 @@ Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
  D:\ADream\build\Moudles\Moudles_autogen\EWIEGA46WW/moc_Config.cpp \
  D:/ADream/Moudles/Config.h \
+ D:\ADream\build\Moudles\Moudles_autogen\W5X43QQM2S/moc_MyBorderContainer.cpp \
+ D:/ADream/Moudles/FrameLessHelper/MyBorderContainer.h \
  D:\ADream\build\Moudles\Moudles_autogen\EWIEGA46WW/moc_TitleBar.cpp \
  D:/ADream/Moudles/TitleBar.h

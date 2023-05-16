@@ -17,12 +17,6 @@
 			null
 		],
 		[
-			"D:/ADream/Controls/Mouse/ADBorderContainer.h",
-			"MU",
-			"6DMSLGL6ER/moc_ADBorderContainer.cpp",
-			null
-		],
-		[
 			"D:/ADream/Controls/Mouse/ADWidgetMove.h",
 			"MU",
 			"6DMSLGL6ER/moc_ADWidgetMove.cpp",
@@ -102,7 +96,6 @@
 	"SOURCES" : 
 	[
 		[ "D:/ADream/Controls/ADButton.cpp", "MU", null ],
-		[ "D:/ADream/Controls/Mouse/ADBorderContainer.cpp", "MU", null ],
 		[ "D:/ADream/Controls/Mouse/ADWidgetMove.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

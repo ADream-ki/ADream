@@ -1,7 +1,8 @@
-Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj: \
- D:\ADream\Moudles\BaseWindow.cpp D:\ADream\Moudles\BaseWindow.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QFrame \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
+Moudles/CMakeFiles/Moudles.dir/FrameLessHelper/MyBorder.cpp.obj: \
+ D:\ADream\Moudles\FrameLessHelper\MyBorder.cpp \
+ D:\ADream\Moudles\FrameLessHelper\MyBorderContainer.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qglobal.h \
@@ -141,7 +142,6 @@ Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
@@ -349,21 +349,20 @@ Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QVBoxLayout \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qboxlayout.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlayout.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlayoutitem.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qboxlayout.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qgridlayout.h \
- D:\ADream\Moudles\TitleBar.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/QMouseEvent \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qevent.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qpointer.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qeventpoint.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qvector2d.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qvectornd.h \
@@ -373,7 +372,6 @@ Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
@@ -381,31 +379,4 @@ Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
  D:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QHBoxLayout \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/QPalette \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QApplication \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qapplication.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreapplication.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qeventloop.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qinputmethod.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
- D:/ADream/Controls/ADButton.h D:\ADream\Moudles\Config.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QMutex \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qtsan_impl.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QMutexLocker \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QEvent \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h

@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Controls.dir/ADButton.cpp.obj.d"
   "CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj.d"
-  "CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj"
-  "CMakeFiles/Controls.dir/Mouse/ADBorderContainer.cpp.obj.d"
   "CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj"
   "CMakeFiles/Controls.dir/Mouse/ADWidgetMove.cpp.obj.d"
   "D:/ADream/bin/libControls.dll"
