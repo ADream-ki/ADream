@@ -1,3 +1,10 @@
+/*
+ * @Description:
+ * @Author: Xiao
+ * @Date: 2023-05-17 12:17:08
+ * @LastEditTime: 2023-05-18 00:19:13
+ * @LastEditors: Xiao
+ */
 #ifndef LEFTFLOATINGBAR_H
 #define LEFTFLOATINGBAR_H
 
@@ -14,6 +21,7 @@ public:
 
 private:
     void initWidget(QWidget *parent);
+    void initAtr();
 
 private:
     QGridLayout *glay;  // 布局

@@ -84,6 +84,7 @@ qrc_resources.cpp: D:/ADream/res/priview-open.ico
 qrc_resources.cpp: D:/ADream/res/save.ico
 qrc_resources.cpp: D:/ADream/res/setting.ico
 qrc_resources.cpp: D:/ADream/Qss/main_titlebar.qss
+qrc_resources.cpp: D:/ADream/Qss/Paint2D/LeftBar.qss
 qrc_resources.cpp: resources.qrc.depends
 qrc_resources.cpp: D:/Qt/6.5.0/mingw_64/./bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\ADream\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_resources.cpp"

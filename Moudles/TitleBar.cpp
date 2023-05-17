@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-05 14:27:52
- * @LastEditTime: 2023-05-17 22:36:51
+ * @LastEditTime: 2023-05-17 23:42:35
  * @LastEditors: Xiao
  */
 #include "TitleBar.h"
@@ -92,7 +92,7 @@ TitleBar::TitleBar(QString ico_url, QString name, int h,
     initWidget();
     initMove(parent);
 
-    QssHelper::setStyle(":qss", this);
+    QssHelper::setStyle(":Qss/TitleBar", this);
 }
 
 TitleBar::~TitleBar()

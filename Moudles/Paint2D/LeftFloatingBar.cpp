@@ -2,7 +2,7 @@
  * @Description: 左侧悬浮栏，不可移动，具备飞入飞出效果，以及淡入淡出效果
  * @Author: Xiao
  * @Date: 2023-05-17 12:55:41
- * @LastEditTime: 2023-05-17 13:18:25
+ * @LastEditTime: 2023-05-18 00:22:37
  * @LastEditors: Xiao
  */
 #include "LeftFloatingBar.h"
@@ -24,4 +24,10 @@ void LeftFloatingBar::initWidget(QWidget *parent)
     glay->addWidget(Two_none, 0, 1, 1, 1);
 
     setLayout(glay);
+}
+
+void LeftFloatingBar::initAtr()
+{
+    // 无边框
+    setWindowFlag(Qt::FramelessWindowHint);
 }

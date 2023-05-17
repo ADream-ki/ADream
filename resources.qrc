@@ -14,10 +14,11 @@
         <file alias="Priview-open">./res/priview-open.ico</file>
         <file alias="Save">./res/save.ico</file>
         <file alias="Setting">./res/setting.ico</file>
-        <file alias="qss">./Qss/main_titlebar.qss</file>
+        
     </qresource>
 
-    <qresource>
-    
+    <qresource prefix="Qss/">
+        <file alias="TitleBar">./Qss/main_titlebar.qss</file>
+        <file alias="LeftBar2D">./Qss/Paint2D/LeftBar.qss</file>
     </qresource>
 </RCC>
