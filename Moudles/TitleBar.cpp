@@ -2,10 +2,11 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-05 14:27:52
- * @LastEditTime: 2023-05-17 00:36:54
+ * @LastEditTime: 2023-05-17 19:12:13
  * @LastEditors: Xiao
  */
 #include "TitleBar.h"
+#include <QFile>
 
 void TitleBar::initMove(QWidget *parent)
 {
@@ -68,12 +69,12 @@ void TitleBar::initWidget()
 
 void TitleBar::initPar(QWidget *parent)
 {
-    // 设置标题栏大小
-    //  this->setFixedWidth(parent->width());
     this->setFixedHeight(20);
     // 设置名字
     this->setObjectName("titleBar");
     setProperty("titleBar", true);
+
+    setAttribute(Qt::WA_StyledBackground, true); // 控件启用 QSS
 
     QPalette palette;
     palette.setColor(QPalette::Window, "#ff5f5f5f"); // Qt::yellow);
@@ -87,6 +88,12 @@ TitleBar::TitleBar(QString ico_url, QString name, int h,
     initPar(parent);
     initWidget();
     initMove(parent);
+
+    QFile file(":qss"); // 样式信息存储在了TestWidget.qss文件中
+    file.open(QFile::ReadOnly);
+    QString stylesheet = file.readAll(); // 读取qss样式文件中的所有数据
+    file.close();
+    setStyleSheet(stylesheet); // 为当前界面类设置样式表
 }
 
 TitleBar::~TitleBar()

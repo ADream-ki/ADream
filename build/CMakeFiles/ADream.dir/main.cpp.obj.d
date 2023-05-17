@@ -428,4 +428,5 @@ CMakeFiles/ADream.dir/main.cpp.obj: D:\ADream\main.cpp \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QFrame \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
  D:\ADream\Moudles/TitleBar.h \
- D:/ADream/Controls/FrameLessHelper/ADBorderContainer.h
+ D:/ADream/Controls/FrameLessHelper/ADBorderContainer.h \
+ D:\ADream\Moudles/Paint2D/Content2D.h

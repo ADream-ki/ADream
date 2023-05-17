@@ -2,11 +2,12 @@
  * @Description:内容管理，同时可拉伸
  * @Author: Xiao
  * @Date: 2023-05-08 18:33:40
- * @LastEditTime: 2023-05-17 14:30:11
+ * @LastEditTime: 2023-05-17 18:02:36
  * @LastEditors: Xiao
  */
 #include "BaseWindow.h"
 #include <QEvent>
+#include "Paint2D/Content2D.h"
 
 BaseWindow::BaseWindow(QWidget *parent) : QWidget(parent)
 {
@@ -23,7 +24,7 @@ BaseWindow::BaseWindow(QWidget *parent) : QWidget(parent)
 
     m_contentWidget = new QWidget(this);
     m_contentWidget->setObjectName("Contents");
-    m_layout = new QVBoxLayout;
+    m_layout = new QVBoxLayout; // 垂直布局
     m_layout->addWidget(m_titleBar);
     m_layout->addWidget(m_contentWidget);
     m_layout->setSpacing(0);
@@ -46,4 +47,12 @@ void BaseWindow::setWindowTitle(const QString &title)
 QWidget *BaseWindow::contentWidget()
 {
     return m_contentWidget;
+}
+
+void BaseWindow::setContentWidget(QWidget *contentWidget)
+{
+    m_layout->removeWidget(m_contentWidget);
+    delete m_contentWidget;
+    m_contentWidget = contentWidget;
+    m_layout->addWidget(m_contentWidget);
 }

@@ -9,7 +9,7 @@ class Content2D : public QWidget
 private:
     QWidget *leftbar; // 侧边栏
 public:
-    Content2D(QWidget *parent);
+    explicit Content2D(QWidget *parent);
     ~Content2D();
 
     void setLeftbar(QWidget *leftbar);
