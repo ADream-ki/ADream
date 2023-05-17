@@ -2,7 +2,7 @@
  * @Description: Qss帮助类
  * @Author: Xiao
  * @Date: 2023-05-17 11:14:43
- * @LastEditTime: 2023-05-17 20:46:46
+ * @LastEditTime: 2023-05-17 22:52:42
  * @LastEditors: Xiao
  */
 #ifndef QSSHELPER_H
@@ -11,17 +11,11 @@
 #include <QObject>
 #include <QWidget>
 
-class QssHelper : public QObject
+class QssHelper
 {
-    Q_OBJECT
 public:
-    explicit QssHelper(QWidget *QssWidget, QObject *parent = nullptr);
-    ~QssHelper();
-    // 设置指定样式
-    void setStyle(const QString &qssFile);
-
-private:
-    QWidget *QssWidget; // 需要设置qss样式的qwidget
+    // 设置样式
+    static void setStyle(const QString &qssFile, QWidget *QssWidget);
 };
 
 #endif // QSSHELPER_H

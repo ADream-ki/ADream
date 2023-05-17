@@ -777,8 +777,6 @@ Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: Cont
   Controls/Controls_autogen/W5X43QQM2S/moc_ADBorderContainer.cpp \
   D:/ADream/Controls/FrameLessHelper/ADBorderContainer.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
-  Controls/Controls_autogen/EGZTOV6G5I/moc_QssHelper.cpp \
-  D:/ADream/Controls/Helper/Qss/QssHelper.h \
   Controls/Controls_autogen/6DMSLGL6ER/moc_ADWidgetMove.cpp \
   D:/ADream/Controls/Mouse/ADWidgetMove.h
 
@@ -3118,15 +3116,13 @@ D:/Qt/6.5.0/mingw_64/include/QtGui/qtextcursor.h:
 
 D:/ADream/Controls/FrameLessHelper/ADBorderContainer.h:
 
-Controls/Controls_autogen/EGZTOV6G5I/moc_QssHelper.cpp:
-
-D:/ADream/Controls/Helper/Qss/QssHelper.h:
-
 D:/ADream/Controls/Mouse/ADWidgetMove.h:
 
 D:/ADream/Controls/FrameLessHelper/ADBorder.cpp:
 
 D:/ADream/Controls/Helper/Qss/QssHelper.cpp:
+
+D:/ADream/Controls/Helper/Qss/QssHelper.h:
 
 D:/Qt/6.5.0/mingw_64/include/QtCore/QFile:
 

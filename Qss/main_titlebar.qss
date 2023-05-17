@@ -1,8 +1,16 @@
 TitleBar#titleBar {
   /* 设置背景颜色 */
-  background-color: rgb(0, 255, 0);
+  background-color: rgba(100, 100, 100, 1);
 }
 
-/* TitleBar > ADButton#ceshi {
-  background-color: rgb(0, 255, 0);
-} */
+TitleBar > ADButton#None:hover {
+  background-color: rgba(217, 211, 211, 0.3);
+}
+
+TitleBar > ADButton#Main-max:hover {
+  background-color: rgba(217, 211, 211, 0.3);
+}
+
+TitleBar > ADButton#Close:hover {
+  background-color: rgba(238, 9, 9, 0.86);
+}

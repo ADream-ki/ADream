@@ -2,11 +2,12 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-05 14:27:52
- * @LastEditTime: 2023-05-17 19:12:13
+ * @LastEditTime: 2023-05-17 22:36:51
  * @LastEditors: Xiao
  */
 #include "TitleBar.h"
 #include <QFile>
+#include "../Controls/Helper/Qss/QssHelper.h"
 
 void TitleBar::initMove(QWidget *parent)
 {
@@ -43,10 +44,13 @@ void TitleBar::initWidget()
 
     // 添加伸缩量
     layout->addStretch(1);
-    // //设置最小化按钮
+
+    // 设置最小化按钮
     m_minimizeButton = new ADButton(":None", 20, 20, this);
+    m_minimizeButton->setObjectName("None");
     layout->addWidget(m_minimizeButton);
 
+    // 设置最大化按钮
     if (config->isMaxScreen)
     {
         m_maximizeButton = new ADButton(":Main-min", 20, 20, this);
@@ -55,13 +59,17 @@ void TitleBar::initWidget()
     {
         m_maximizeButton = new ADButton(":Main-max", 20, 20, this);
     }
+    m_maximizeButton->setObjectName("Main-max");
     layout->addWidget(m_maximizeButton);
 
+    // 设置关闭按钮
     m_closeButton = new ADButton(":Close", 20, 20, this);
+    m_closeButton->setObjectName("Close");
     layout->addWidget(m_closeButton);
 
-    this->setLayout(layout);
+    setLayout(layout);
 
+    // 连接信号槽
     connect(m_minimizeButton, SIGNAL(clicked()), this, SLOT(onClicked()));
     connect(m_maximizeButton, SIGNAL(clicked()), this, SLOT(onClicked()));
     connect(m_closeButton, SIGNAL(clicked()), this, SLOT(onClicked()));
@@ -75,11 +83,6 @@ void TitleBar::initPar(QWidget *parent)
     setProperty("titleBar", true);
 
     setAttribute(Qt::WA_StyledBackground, true); // 控件启用 QSS
-
-    QPalette palette;
-    palette.setColor(QPalette::Window, "#ff5f5f5f"); // Qt::yellow);
-    this->setAutoFillBackground(true);
-    this->setPalette(palette);
 }
 
 TitleBar::TitleBar(QString ico_url, QString name, int h,
@@ -89,11 +92,7 @@ TitleBar::TitleBar(QString ico_url, QString name, int h,
     initWidget();
     initMove(parent);
 
-    QFile file(":qss"); // 样式信息存储在了TestWidget.qss文件中
-    file.open(QFile::ReadOnly);
-    QString stylesheet = file.readAll(); // 读取qss样式文件中的所有数据
-    file.close();
-    setStyleSheet(stylesheet); // 为当前界面类设置样式表
+    QssHelper::setStyle(":qss", this);
 }
 
 TitleBar::~TitleBar()

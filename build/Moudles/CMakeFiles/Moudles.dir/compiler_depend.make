@@ -2383,7 +2383,8 @@ Moudles/CMakeFiles/Moudles.dir/TitleBar.cpp.obj: D:/ADream/Moudles/TitleBar.cpp 
   D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
   D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/codecvt \
   D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_dir.h \
-  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_ops.h
+  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_ops.h \
+  D:/ADream/Controls/Helper/Qss/QssHelper.h
 
 
 D:/mingw1120_64/x86_64-w64-mingw32/include/stdint.h:
@@ -3291,3 +3292,5 @@ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc
 D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc:
 
 D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_ops.h:
+
+D:/ADream/Controls/Helper/Qss/QssHelper.h:
