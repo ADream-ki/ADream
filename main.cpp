@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-08 18:33:40
- * @LastEditTime: 2023-05-15 00:02:20
+ * @LastEditTime: 2023-05-17 14:46:52
  * @LastEditors: Xiao
  */
 #include <QApplication>
@@ -20,17 +20,6 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     BaseWindow w;
     w.setWindowTitle("WidgetBase");
-    QPushButton *button1 = new QPushButton("OK");
-    QHBoxLayout *hLayout1 = new QHBoxLayout;
-    hLayout1->addStretch(1);
-    hLayout1->addWidget(button1);
-
-    QVBoxLayout *layout = new QVBoxLayout;
-    QTreeView *treeView = new QTreeView;
-    layout->addWidget(treeView);
-    layout->addLayout(hLayout1);
-    layout->addStretch(1);
-    w.contentWidget()->setLayout(layout);
     w.showMaximized();
 
     return a.exec();

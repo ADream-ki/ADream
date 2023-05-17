@@ -191,53 +191,77 @@ Controls_autogen/mocs_compilation.cpp.s:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.s
 .PHONY : Controls_autogen/mocs_compilation.cpp.s
 
-FrameLessHelper/MyBorder.obj: FrameLessHelper/MyBorder.cpp.obj
-.PHONY : FrameLessHelper/MyBorder.obj
+FrameLessHelper/ADBorder.obj: FrameLessHelper/ADBorder.cpp.obj
+.PHONY : FrameLessHelper/ADBorder.obj
 
 # target to build an object file
-FrameLessHelper/MyBorder.cpp.obj:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.obj
-.PHONY : FrameLessHelper/MyBorder.cpp.obj
+FrameLessHelper/ADBorder.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/ADBorder.cpp.obj
+.PHONY : FrameLessHelper/ADBorder.cpp.obj
 
-FrameLessHelper/MyBorder.i: FrameLessHelper/MyBorder.cpp.i
-.PHONY : FrameLessHelper/MyBorder.i
+FrameLessHelper/ADBorder.i: FrameLessHelper/ADBorder.cpp.i
+.PHONY : FrameLessHelper/ADBorder.i
 
 # target to preprocess a source file
-FrameLessHelper/MyBorder.cpp.i:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.i
-.PHONY : FrameLessHelper/MyBorder.cpp.i
+FrameLessHelper/ADBorder.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/ADBorder.cpp.i
+.PHONY : FrameLessHelper/ADBorder.cpp.i
 
-FrameLessHelper/MyBorder.s: FrameLessHelper/MyBorder.cpp.s
-.PHONY : FrameLessHelper/MyBorder.s
+FrameLessHelper/ADBorder.s: FrameLessHelper/ADBorder.cpp.s
+.PHONY : FrameLessHelper/ADBorder.s
 
 # target to generate assembly for a file
-FrameLessHelper/MyBorder.cpp.s:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.s
-.PHONY : FrameLessHelper/MyBorder.cpp.s
+FrameLessHelper/ADBorder.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/ADBorder.cpp.s
+.PHONY : FrameLessHelper/ADBorder.cpp.s
 
-FrameLessHelper/MyBorderContainer.obj: FrameLessHelper/MyBorderContainer.cpp.obj
-.PHONY : FrameLessHelper/MyBorderContainer.obj
+FrameLessHelper/ADBorderContainer.obj: FrameLessHelper/ADBorderContainer.cpp.obj
+.PHONY : FrameLessHelper/ADBorderContainer.obj
 
 # target to build an object file
-FrameLessHelper/MyBorderContainer.cpp.obj:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.obj
-.PHONY : FrameLessHelper/MyBorderContainer.cpp.obj
+FrameLessHelper/ADBorderContainer.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/ADBorderContainer.cpp.obj
+.PHONY : FrameLessHelper/ADBorderContainer.cpp.obj
 
-FrameLessHelper/MyBorderContainer.i: FrameLessHelper/MyBorderContainer.cpp.i
-.PHONY : FrameLessHelper/MyBorderContainer.i
+FrameLessHelper/ADBorderContainer.i: FrameLessHelper/ADBorderContainer.cpp.i
+.PHONY : FrameLessHelper/ADBorderContainer.i
 
 # target to preprocess a source file
-FrameLessHelper/MyBorderContainer.cpp.i:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.i
-.PHONY : FrameLessHelper/MyBorderContainer.cpp.i
+FrameLessHelper/ADBorderContainer.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/ADBorderContainer.cpp.i
+.PHONY : FrameLessHelper/ADBorderContainer.cpp.i
 
-FrameLessHelper/MyBorderContainer.s: FrameLessHelper/MyBorderContainer.cpp.s
-.PHONY : FrameLessHelper/MyBorderContainer.s
+FrameLessHelper/ADBorderContainer.s: FrameLessHelper/ADBorderContainer.cpp.s
+.PHONY : FrameLessHelper/ADBorderContainer.s
 
 # target to generate assembly for a file
-FrameLessHelper/MyBorderContainer.cpp.s:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.s
-.PHONY : FrameLessHelper/MyBorderContainer.cpp.s
+FrameLessHelper/ADBorderContainer.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/FrameLessHelper/ADBorderContainer.cpp.s
+.PHONY : FrameLessHelper/ADBorderContainer.cpp.s
+
+Helper/Qss/QssHelper.obj: Helper/Qss/QssHelper.cpp.obj
+.PHONY : Helper/Qss/QssHelper.obj
+
+# target to build an object file
+Helper/Qss/QssHelper.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Helper/Qss/QssHelper.cpp.obj
+.PHONY : Helper/Qss/QssHelper.cpp.obj
+
+Helper/Qss/QssHelper.i: Helper/Qss/QssHelper.cpp.i
+.PHONY : Helper/Qss/QssHelper.i
+
+# target to preprocess a source file
+Helper/Qss/QssHelper.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Helper/Qss/QssHelper.cpp.i
+.PHONY : Helper/Qss/QssHelper.cpp.i
+
+Helper/Qss/QssHelper.s: Helper/Qss/QssHelper.cpp.s
+.PHONY : Helper/Qss/QssHelper.s
+
+# target to generate assembly for a file
+Helper/Qss/QssHelper.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Helper/Qss/QssHelper.cpp.s
+.PHONY : Helper/Qss/QssHelper.cpp.s
 
 Mouse/ADWidgetMove.obj: Mouse/ADWidgetMove.cpp.obj
 .PHONY : Mouse/ADWidgetMove.obj
@@ -279,12 +303,15 @@ help:
 	@echo ... Controls_autogen/mocs_compilation.obj
 	@echo ... Controls_autogen/mocs_compilation.i
 	@echo ... Controls_autogen/mocs_compilation.s
-	@echo ... FrameLessHelper/MyBorder.obj
-	@echo ... FrameLessHelper/MyBorder.i
-	@echo ... FrameLessHelper/MyBorder.s
-	@echo ... FrameLessHelper/MyBorderContainer.obj
-	@echo ... FrameLessHelper/MyBorderContainer.i
-	@echo ... FrameLessHelper/MyBorderContainer.s
+	@echo ... FrameLessHelper/ADBorder.obj
+	@echo ... FrameLessHelper/ADBorder.i
+	@echo ... FrameLessHelper/ADBorder.s
+	@echo ... FrameLessHelper/ADBorderContainer.obj
+	@echo ... FrameLessHelper/ADBorderContainer.i
+	@echo ... FrameLessHelper/ADBorderContainer.s
+	@echo ... Helper/Qss/QssHelper.obj
+	@echo ... Helper/Qss/QssHelper.i
+	@echo ... Helper/Qss/QssHelper.s
 	@echo ... Mouse/ADWidgetMove.obj
 	@echo ... Mouse/ADWidgetMove.i
 	@echo ... Mouse/ADWidgetMove.s

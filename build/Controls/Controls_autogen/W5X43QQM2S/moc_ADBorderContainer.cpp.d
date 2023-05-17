@@ -1,4 +1,4 @@
-D:/ADream/build/Controls/Controls_autogen/W5X43QQM2S/moc_MyBorderContainer.cpp: D:/ADream/Controls/FrameLessHelper/MyBorderContainer.h \
+D:/ADream/build/Controls/Controls_autogen/W5X43QQM2S/moc_ADBorderContainer.cpp: D:/ADream/Controls/FrameLessHelper/ADBorderContainer.h \
   D:/ADream/build/Controls/Controls_autogen/moc_predefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
   D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \

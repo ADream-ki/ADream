@@ -2,12 +2,12 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-16 21:37:40
- * @LastEditTime: 2023-05-16 22:37:15
+ * @LastEditTime: 2023-05-17 13:11:53
  * @LastEditors: Xiao
  */
-#include "MyBorderContainer.h"
+#include "ADBorderContainer.h"
 
-MyBorderContainer::MyBorder::MyBorder(QWidget *parent, BorderType type, MyBorderContainer *contex)
+ADBorderContainer::ADBorder::ADBorder(QWidget *parent, BorderType type, ADBorderContainer *contex)
 {
     this->setParent(parent);
     KeepDrag = false;
@@ -36,7 +36,7 @@ MyBorderContainer::MyBorder::MyBorder(QWidget *parent, BorderType type, MyBorder
 }
 
 // 鼠标点击事件
-void MyBorderContainer::MyBorder::mousePressEvent(QMouseEvent *ev)
+void ADBorderContainer::ADBorder::mousePressEvent(QMouseEvent *ev)
 {
     if (ev->button() == Qt::LeftButton)
     {
@@ -47,7 +47,7 @@ void MyBorderContainer::MyBorder::mousePressEvent(QMouseEvent *ev)
 }
 
 // 鼠标移动事件
-void MyBorderContainer::MyBorder::mouseMoveEvent(QMouseEvent *ev)
+void ADBorderContainer::ADBorder::mouseMoveEvent(QMouseEvent *ev)
 {
     if (KeepDrag)
     {
@@ -89,7 +89,7 @@ void MyBorderContainer::MyBorder::mouseMoveEvent(QMouseEvent *ev)
 }
 
 // 鼠标释放事件
-void MyBorderContainer::MyBorder::mouseReleaseEvent(QMouseEvent *ev)
+void ADBorderContainer::ADBorder::mouseReleaseEvent(QMouseEvent *ev)
 {
     Q_UNUSED(ev)
     KeepDrag = false;

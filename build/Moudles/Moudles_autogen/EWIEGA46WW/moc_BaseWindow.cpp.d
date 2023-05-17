@@ -1,7 +1,7 @@
 D:/ADream/build/Moudles/Moudles_autogen/EWIEGA46WW/moc_BaseWindow.cpp: D:/ADream/Moudles/BaseWindow.h \
   D:/ADream/build/Moudles/Moudles_autogen/moc_predefs.h \
   D:/ADream/Controls/ADButton.h \
-  D:/ADream/Controls/FrameLessHelper/MyBorderContainer.h \
+  D:/ADream/Controls/FrameLessHelper/ADBorderContainer.h \
   D:/ADream/Controls/Mouse/ADWidgetMove.h \
   D:/ADream/Moudles/Config.h \
   D:/ADream/Moudles/TitleBar.h \

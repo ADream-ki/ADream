@@ -1,10 +1,10 @@
-Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.obj: \
- D:\ADream\Controls\FrameLessHelper\MyBorder.cpp \
- D:\ADream\Controls\FrameLessHelper\MyBorderContainer.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
+Controls/CMakeFiles/Controls.dir/Helper/Qss/QssHelper.cpp.obj: \
+ D:\ADream\Controls\Helper\Qss\QssHelper.cpp \
+ D:\ADream\Controls\Helper\Qss\QssHelper.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QFile \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qfile.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qfiledevice.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qglobal.h \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -138,17 +138,12 @@ Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qtresource.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qttranslation.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevicebase.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qtmetamacros.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs_impl.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qchar.h \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
@@ -289,7 +284,6 @@ Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qmetatype.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qcompare.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qdatastream.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevicebase.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qfloat16.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qmath.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qiterable.h \
@@ -309,74 +303,35 @@ Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorder.cpp.obj: \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qmargins.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qicon.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qsize.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpixmap.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpaintdevice.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qpoint.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qcolor.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qshareddata.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qimage.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpolygon.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qregion.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qline.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qvariant.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qstringconverter_base.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qcontiguouscache.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qmap.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qshareddata_impl.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qset.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qhash.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qvarlengtharray.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qbrush.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qfont.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qfontmetrics.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qfontinfo.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/filesystem \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_fwd.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_path.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
+ D:/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.tcc \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iomanip \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/quoted_string.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/codecvt \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_dir.h \
+ D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_ops.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/QMouseEvent \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qevent.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qpointer.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qeventpoint.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qvector2d.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qvectornd.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpointingdevice.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qinputdevice.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qscreen.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qsize.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
- D:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h

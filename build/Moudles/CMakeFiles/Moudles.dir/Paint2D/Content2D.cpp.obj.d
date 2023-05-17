@@ -1,6 +1,6 @@
-Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.obj: \
- D:\ADream\Controls\FrameLessHelper\MyBorderContainer.cpp \
- D:\ADream\Controls\FrameLessHelper\MyBorderContainer.h \
+Moudles/CMakeFiles/Moudles.dir/Paint2D/Content2D.cpp.obj: \
+ D:\ADream\Moudles\Paint2D\Content2D.cpp \
+ D:\ADream\Moudles\Paint2D\Content2D.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -349,20 +349,20 @@ Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
+ D:\ADream\Moudles\Paint2D\LeftFloatingBar.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/QGridLayout \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qgridlayout.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlayout.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qgridlayout.h \
+ D:/ADream/Controls/ADButton.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/QMouseEvent \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qevent.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qcoreevent.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qpointer.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qeventpoint.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qvector2d.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qvectornd.h \
@@ -372,6 +372,7 @@ Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
@@ -379,4 +380,10 @@ Controls/CMakeFiles/Controls.dir/FrameLessHelper/MyBorderContainer.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
  D:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h

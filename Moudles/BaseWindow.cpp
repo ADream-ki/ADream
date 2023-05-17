@@ -2,7 +2,7 @@
  * @Description:内容管理，同时可拉伸
  * @Author: Xiao
  * @Date: 2023-05-08 18:33:40
- * @LastEditTime: 2023-05-16 09:24:11
+ * @LastEditTime: 2023-05-17 14:30:11
  * @LastEditors: Xiao
  */
 #include "BaseWindow.h"
@@ -29,10 +29,9 @@ BaseWindow::BaseWindow(QWidget *parent) : QWidget(parent)
     m_layout->setSpacing(0);
     m_layout->setContentsMargins(0, 0, 0, 0);
 
-    // border->
     setLayout(m_layout);
     // 创建边框类容器
-    border = new MyBorderContainer(this, 800, 800, 5);
+    border = new ADBorderContainer(this, 800, 800, 5);
 }
 
 BaseWindow::~BaseWindow()

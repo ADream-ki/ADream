@@ -215,6 +215,54 @@ Moudles_autogen/mocs_compilation.cpp.s:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.s
 .PHONY : Moudles_autogen/mocs_compilation.cpp.s
 
+Paint2D/Content2D.obj: Paint2D/Content2D.cpp.obj
+.PHONY : Paint2D/Content2D.obj
+
+# target to build an object file
+Paint2D/Content2D.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/Paint2D/Content2D.cpp.obj
+.PHONY : Paint2D/Content2D.cpp.obj
+
+Paint2D/Content2D.i: Paint2D/Content2D.cpp.i
+.PHONY : Paint2D/Content2D.i
+
+# target to preprocess a source file
+Paint2D/Content2D.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/Paint2D/Content2D.cpp.i
+.PHONY : Paint2D/Content2D.cpp.i
+
+Paint2D/Content2D.s: Paint2D/Content2D.cpp.s
+.PHONY : Paint2D/Content2D.s
+
+# target to generate assembly for a file
+Paint2D/Content2D.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/Paint2D/Content2D.cpp.s
+.PHONY : Paint2D/Content2D.cpp.s
+
+Paint2D/LeftFloatingBar.obj: Paint2D/LeftFloatingBar.cpp.obj
+.PHONY : Paint2D/LeftFloatingBar.obj
+
+# target to build an object file
+Paint2D/LeftFloatingBar.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/Paint2D/LeftFloatingBar.cpp.obj
+.PHONY : Paint2D/LeftFloatingBar.cpp.obj
+
+Paint2D/LeftFloatingBar.i: Paint2D/LeftFloatingBar.cpp.i
+.PHONY : Paint2D/LeftFloatingBar.i
+
+# target to preprocess a source file
+Paint2D/LeftFloatingBar.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/Paint2D/LeftFloatingBar.cpp.i
+.PHONY : Paint2D/LeftFloatingBar.cpp.i
+
+Paint2D/LeftFloatingBar.s: Paint2D/LeftFloatingBar.cpp.s
+.PHONY : Paint2D/LeftFloatingBar.s
+
+# target to generate assembly for a file
+Paint2D/LeftFloatingBar.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/Paint2D/LeftFloatingBar.cpp.s
+.PHONY : Paint2D/LeftFloatingBar.cpp.s
+
 TitleBar.obj: TitleBar.cpp.obj
 .PHONY : TitleBar.obj
 
@@ -258,6 +306,12 @@ help:
 	@echo ... Moudles_autogen/mocs_compilation.obj
 	@echo ... Moudles_autogen/mocs_compilation.i
 	@echo ... Moudles_autogen/mocs_compilation.s
+	@echo ... Paint2D/Content2D.obj
+	@echo ... Paint2D/Content2D.i
+	@echo ... Paint2D/Content2D.s
+	@echo ... Paint2D/LeftFloatingBar.obj
+	@echo ... Paint2D/LeftFloatingBar.i
+	@echo ... Paint2D/LeftFloatingBar.s
 	@echo ... TitleBar.obj
 	@echo ... TitleBar.i
 	@echo ... TitleBar.s

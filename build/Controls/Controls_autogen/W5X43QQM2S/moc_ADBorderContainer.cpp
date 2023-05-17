@@ -1,12 +1,12 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'MyBorderContainer.h'
+** Meta object code from reading C++ file 'ADBorderContainer.h'
 **
 ** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../Controls/FrameLessHelper/MyBorderContainer.h"
+#include "../../../../Controls/FrameLessHelper/ADBorderContainer.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 
@@ -20,7 +20,7 @@ QT_BEGIN_MOC_NAMESPACE
 #include <memory>
 
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'MyBorderContainer.h' doesn't include <QObject>."
+#error "The header file 'ADBorderContainer.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
 #error "This file was generated using the moc from 6.5.0. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -37,28 +37,28 @@ QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSMyBorderContainerENDCLASS_t {};
-static constexpr auto qt_meta_stringdata_CLASSMyBorderContainerENDCLASS = QtMocHelpers::stringData(
-    "MyBorderContainer"
+struct qt_meta_stringdata_CLASSADBorderContainerENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSADBorderContainerENDCLASS = QtMocHelpers::stringData(
+    "ADBorderContainer"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
-struct qt_meta_stringdata_CLASSMyBorderContainerENDCLASS_t {
+struct qt_meta_stringdata_CLASSADBorderContainerENDCLASS_t {
     uint offsetsAndSizes[2];
     char stringdata0[18];
 };
 #define QT_MOC_LITERAL(ofs, len) \
-    uint(sizeof(qt_meta_stringdata_CLASSMyBorderContainerENDCLASS_t::offsetsAndSizes) + ofs), len 
-Q_CONSTINIT static const qt_meta_stringdata_CLASSMyBorderContainerENDCLASS_t qt_meta_stringdata_CLASSMyBorderContainerENDCLASS = {
+    uint(sizeof(qt_meta_stringdata_CLASSADBorderContainerENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSADBorderContainerENDCLASS_t qt_meta_stringdata_CLASSADBorderContainerENDCLASS = {
     {
-        QT_MOC_LITERAL(0, 17)   // "MyBorderContainer"
+        QT_MOC_LITERAL(0, 17)   // "ADBorderContainer"
     },
-    "MyBorderContainer"
+    "ADBorderContainer"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSMyBorderContainerENDCLASS[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSADBorderContainerENDCLASS[] = {
 
  // content:
       11,       // revision
@@ -74,20 +74,20 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMyBorderContainerENDCLASS[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject MyBorderContainer::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject ADBorderContainer::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_CLASSMyBorderContainerENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSMyBorderContainerENDCLASS,
+    qt_meta_stringdata_CLASSADBorderContainerENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSADBorderContainerENDCLASS,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSMyBorderContainerENDCLASS_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSADBorderContainerENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<MyBorderContainer, std::true_type>
+        QtPrivate::TypeAndForceComplete<ADBorderContainer, std::true_type>
     >,
     nullptr
 } };
 
-void MyBorderContainer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void ADBorderContainer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
     (void)_id;
@@ -95,20 +95,20 @@ void MyBorderContainer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, in
     (void)_a;
 }
 
-const QMetaObject *MyBorderContainer::metaObject() const
+const QMetaObject *ADBorderContainer::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *MyBorderContainer::qt_metacast(const char *_clname)
+void *ADBorderContainer::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSMyBorderContainerENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSADBorderContainerENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
 
-int MyBorderContainer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int ADBorderContainer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
     return _id;
