@@ -24,7 +24,7 @@ class MyBorderContainer : public QObject
 {
      Q_OBJECT
 public:
-    MyBorderContainer(QWidget *parent,uint16_t minWindowHeight = 50, uint16_t minWindowWidth = 50, uint16_t borderSize = 5);
+    MyBorderContainer(QWidget *parent,uint16_t minWindowHeight = 800, uint16_t minWindowWidth = 800, uint16_t borderSize = 5);
     void setMinWindowSize(uint16_t minWindowWidth, uint16_t minWindowHeight); //设置窗口最小尺寸
     void setBorderSize(uint16_t borderSize);    //设置边框捕获区域尺寸
     void DarwBorder(); //重新绘制边框（调整位置）

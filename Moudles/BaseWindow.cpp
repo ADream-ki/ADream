@@ -32,7 +32,7 @@ BaseWindow::BaseWindow(QWidget *parent) : QWidget(parent)
     // border->
     setLayout(m_layout);
     // 创建边框类容器
-    border = new MyBorderContainer(this);
+    border = new MyBorderContainer(this, 800, 800, 5);
 }
 
 BaseWindow::~BaseWindow()

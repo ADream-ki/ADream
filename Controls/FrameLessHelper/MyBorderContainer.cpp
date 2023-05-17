@@ -1,3 +1,10 @@
+/*
+ * @Description:
+ * @Author: Xiao
+ * @Date: 2023-05-16 21:37:40
+ * @LastEditTime: 2023-05-17 08:30:26
+ * @LastEditors: Xiao
+ */
 #include "MyBorderContainer.h"
 MyBorderContainer::MyBorderContainer(QWidget *parent, uint16_t minWindowHeight, uint16_t minWindowWidth, uint16_t borderSize)
 {
@@ -71,12 +78,14 @@ void MyBorderContainer::DarwBorder()
     labelLT->setGeometry(0, 0, this->borderSize + 1, this->borderSize + 1);
 }
 
+// 直接比较是否达到最低宽高
 void MyBorderContainer::getLeftScaleEvent(QPoint movPoint)
 {
     if ((m_widget->pos().x() + movPoint.x()) > (m_widget->pos().x() + m_widget->width() - minWindowWidth))
     {
         return; // 保证拖动窗口左边界的时候，控件宽度至少有200
     }
+
     m_widget->setGeometry(m_widget->pos().x() + movPoint.x(), m_widget->pos().y(), m_widget->width() - movPoint.x(), m_widget->height());
     DarwBorder();
 }
