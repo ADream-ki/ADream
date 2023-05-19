@@ -17,6 +17,24 @@
 			null
 		],
 		[
+			"D:/ADream/Controls/Effect/BaseEffect.h",
+			"MU",
+			"LWCXL2SYEI/moc_BaseEffect.cpp",
+			null
+		],
+		[
+			"D:/ADream/Controls/Effect/ExpandtoCollapse.h",
+			"MU",
+			"LWCXL2SYEI/moc_ExpandtoCollapse.cpp",
+			null
+		],
+		[
+			"D:/ADream/Controls/Effect/Fly.h",
+			"MU",
+			"LWCXL2SYEI/moc_Fly.cpp",
+			null
+		],
+		[
 			"D:/ADream/Controls/FrameLessHelper/ADBorderContainer.h",
 			"MU",
 			"W5X43QQM2S/moc_ADBorderContainer.cpp",
@@ -108,6 +126,8 @@
 	"SOURCES" : 
 	[
 		[ "D:/ADream/Controls/ADButton.cpp", "MU", null ],
+		[ "D:/ADream/Controls/Effect/ExpandtoCollapse.cpp", "MU", null ],
+		[ "D:/ADream/Controls/Effect/Fly.cpp", "MU", null ],
 		[ "D:/ADream/Controls/FrameLessHelper/ADBorder.cpp", "MU", null ],
 		[
 			"D:/ADream/Controls/FrameLessHelper/ADBorderContainer.cpp",

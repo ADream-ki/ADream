@@ -1,5 +1,5 @@
 /*
- * @Description:
+ * @Description: 左侧悬浮栏，不可移动，具备展开收起效果，以及淡入淡出效果
  * @Author: Xiao
  * @Date: 2023-05-17 12:17:08
  * @LastEditTime: 2023-05-18 00:19:13

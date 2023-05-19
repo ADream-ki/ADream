@@ -385,4 +385,6 @@ Moudles/CMakeFiles/Moudles.dir/Paint2D/LeftFloatingBar.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
+ D:/ADream/Controls/Helper/Qss/QssHelper.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QObject

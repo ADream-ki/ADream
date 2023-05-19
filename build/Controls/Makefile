@@ -191,6 +191,54 @@ Controls_autogen/mocs_compilation.cpp.s:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.s
 .PHONY : Controls_autogen/mocs_compilation.cpp.s
 
+Effect/ExpandtoCollapse.obj: Effect/ExpandtoCollapse.cpp.obj
+.PHONY : Effect/ExpandtoCollapse.obj
+
+# target to build an object file
+Effect/ExpandtoCollapse.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Effect/ExpandtoCollapse.cpp.obj
+.PHONY : Effect/ExpandtoCollapse.cpp.obj
+
+Effect/ExpandtoCollapse.i: Effect/ExpandtoCollapse.cpp.i
+.PHONY : Effect/ExpandtoCollapse.i
+
+# target to preprocess a source file
+Effect/ExpandtoCollapse.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Effect/ExpandtoCollapse.cpp.i
+.PHONY : Effect/ExpandtoCollapse.cpp.i
+
+Effect/ExpandtoCollapse.s: Effect/ExpandtoCollapse.cpp.s
+.PHONY : Effect/ExpandtoCollapse.s
+
+# target to generate assembly for a file
+Effect/ExpandtoCollapse.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Effect/ExpandtoCollapse.cpp.s
+.PHONY : Effect/ExpandtoCollapse.cpp.s
+
+Effect/Fly.obj: Effect/Fly.cpp.obj
+.PHONY : Effect/Fly.obj
+
+# target to build an object file
+Effect/Fly.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Effect/Fly.cpp.obj
+.PHONY : Effect/Fly.cpp.obj
+
+Effect/Fly.i: Effect/Fly.cpp.i
+.PHONY : Effect/Fly.i
+
+# target to preprocess a source file
+Effect/Fly.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Effect/Fly.cpp.i
+.PHONY : Effect/Fly.cpp.i
+
+Effect/Fly.s: Effect/Fly.cpp.s
+.PHONY : Effect/Fly.s
+
+# target to generate assembly for a file
+Effect/Fly.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/Effect/Fly.cpp.s
+.PHONY : Effect/Fly.cpp.s
+
 FrameLessHelper/ADBorder.obj: FrameLessHelper/ADBorder.cpp.obj
 .PHONY : FrameLessHelper/ADBorder.obj
 
@@ -303,6 +351,12 @@ help:
 	@echo ... Controls_autogen/mocs_compilation.obj
 	@echo ... Controls_autogen/mocs_compilation.i
 	@echo ... Controls_autogen/mocs_compilation.s
+	@echo ... Effect/ExpandtoCollapse.obj
+	@echo ... Effect/ExpandtoCollapse.i
+	@echo ... Effect/ExpandtoCollapse.s
+	@echo ... Effect/Fly.obj
+	@echo ... Effect/Fly.i
+	@echo ... Effect/Fly.s
 	@echo ... FrameLessHelper/ADBorder.obj
 	@echo ... FrameLessHelper/ADBorder.i
 	@echo ... FrameLessHelper/ADBorder.s

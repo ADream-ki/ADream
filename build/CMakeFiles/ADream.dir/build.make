@@ -83,6 +83,7 @@ qrc_resources.cpp: D:/ADream/res/priview-close.ico
 qrc_resources.cpp: D:/ADream/res/priview-open.ico
 qrc_resources.cpp: D:/ADream/res/save.ico
 qrc_resources.cpp: D:/ADream/res/setting.ico
+qrc_resources.cpp: D:/ADream/res/Collapse.ico
 qrc_resources.cpp: D:/ADream/Qss/main_titlebar.qss
 qrc_resources.cpp: D:/ADream/Qss/Paint2D/LeftBar.qss
 qrc_resources.cpp: resources.qrc.depends

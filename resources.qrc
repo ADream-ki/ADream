@@ -14,7 +14,10 @@
         <file alias="Priview-open">./res/priview-open.ico</file>
         <file alias="Save">./res/save.ico</file>
         <file alias="Setting">./res/setting.ico</file>
-        
+    </qresource>
+
+    <qresource>
+        <file alias="Collapse">./res/Collapse.ico</file>
     </qresource>
 
     <qresource prefix="Qss/">

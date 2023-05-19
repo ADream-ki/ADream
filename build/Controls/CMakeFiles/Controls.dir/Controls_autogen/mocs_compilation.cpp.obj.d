@@ -385,8 +385,20 @@ Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
+ D:\ADream\build\Controls\Controls_autogen\LWCXL2SYEI/moc_BaseEffect.cpp \
+ D:/ADream/Controls/Effect/BaseEffect.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QPropertyAnimation \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qpropertyanimation.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qvariantanimation.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qabstractanimation.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qeasingcurve.h \
+ D:\ADream\build\Controls\Controls_autogen\LWCXL2SYEI/moc_ExpandtoCollapse.cpp \
+ D:/ADream/Controls/Effect/ExpandtoCollapse.h \
+ D:/ADream/Controls/Effect/BaseEffect.h \
+ D:\ADream\build\Controls\Controls_autogen\LWCXL2SYEI/moc_Fly.cpp \
+ D:/ADream/Controls/Effect/Fly.h \
  D:\ADream\build\Controls\Controls_autogen\W5X43QQM2S/moc_ADBorderContainer.cpp \
  D:/ADream/Controls/FrameLessHelper/ADBorderContainer.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
  D:\ADream\build\Controls\Controls_autogen\6DMSLGL6ER/moc_ADWidgetMove.cpp \
  D:/ADream/Controls/Mouse/ADWidgetMove.h
