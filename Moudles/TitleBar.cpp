@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-05 14:27:52
- * @LastEditTime: 2023-05-17 23:42:35
+ * @LastEditTime: 2023-05-20 08:44:20
  * @LastEditors: Xiao
  */
 #include "TitleBar.h"
@@ -18,16 +18,15 @@ void TitleBar::initMove(QWidget *parent)
     connect(this, SIGNAL(setisMove(bool)), moveWidget, SLOT(setisMove(bool)));
 }
 
-void TitleBar::initWidget()
+void TitleBar::initWidget(int h)
 {
     // 初始化布局
     auto *layout = new QHBoxLayout;
-    layout->setContentsMargins(0, 0, 0, 0);
 
     // 设置图标
     QIcon icon = QIcon(":LOGO");
     m_iconLabel = new QLabel(this);
-    m_iconLabel->setPixmap(icon.pixmap(20, 20));
+    m_iconLabel->setPixmap(icon.pixmap(h, h));
     m_iconLabel->setScaledContents(true);
     m_iconLabel->setObjectName("Icon");
     layout->addWidget(m_iconLabel);
@@ -46,27 +45,28 @@ void TitleBar::initWidget()
     layout->addStretch(1);
 
     // 设置最小化按钮
-    m_minimizeButton = new ADButton(":None", 20, 20, this);
+    m_minimizeButton = new ADButton(":None", h, h, this);
     m_minimizeButton->setObjectName("None");
     layout->addWidget(m_minimizeButton);
 
     // 设置最大化按钮
     if (config->isMaxScreen)
     {
-        m_maximizeButton = new ADButton(":Main-min", 20, 20, this);
+        m_maximizeButton = new ADButton(":Main-min", h, h, this);
     }
     else
     {
-        m_maximizeButton = new ADButton(":Main-max", 20, 20, this);
+        m_maximizeButton = new ADButton(":Main-max", h, h, this);
     }
     m_maximizeButton->setObjectName("Main-max");
     layout->addWidget(m_maximizeButton);
 
     // 设置关闭按钮
-    m_closeButton = new ADButton(":Close", 20, 20, this);
+    m_closeButton = new ADButton(":Close", h, h, this);
     m_closeButton->setObjectName("Close");
     layout->addWidget(m_closeButton);
 
+    layout->setContentsMargins(0, 0, 0, 0);
     setLayout(layout);
 
     // 连接信号槽
@@ -75,9 +75,9 @@ void TitleBar::initWidget()
     connect(m_closeButton, SIGNAL(clicked()), this, SLOT(onClicked()));
 }
 
-void TitleBar::initPar(QWidget *parent)
+void TitleBar::initPar(QWidget *parent, int h)
 {
-    this->setFixedHeight(20);
+    this->setFixedHeight(h);
     // 设置名字
     this->setObjectName("titleBar");
     setProperty("titleBar", true);
@@ -88,8 +88,8 @@ void TitleBar::initPar(QWidget *parent)
 TitleBar::TitleBar(QString ico_url, QString name, int h,
                    QWidget *parent) : QWidget(parent)
 {
-    initPar(parent);
-    initWidget();
+    initPar(parent,h);
+    initWidget(h);
     initMove(parent);
 
     QssHelper::setStyle(":Qss/TitleBar", this);

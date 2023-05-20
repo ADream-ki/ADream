@@ -2,7 +2,7 @@
  * @Description:内容管理，同时可拉伸
  * @Author: Xiao
  * @Date: 2023-05-08 18:33:40
- * @LastEditTime: 2023-05-17 17:42:52
+ * @LastEditTime: 2023-05-20 12:18:35
  * @LastEditors: Xiao
  */
 #ifndef BASEWINDOW_H
@@ -24,6 +24,11 @@ public:
     void setWindowTitle(const QString &title);
     QWidget *contentWidget();
     void setContentWidget(QWidget *contentWidget);
+    void setStyle();
+
+private:
+    void initWidget();
+    void setAtr();
 
 private:
     Config *config = Config::getInstance(); // 全局变量

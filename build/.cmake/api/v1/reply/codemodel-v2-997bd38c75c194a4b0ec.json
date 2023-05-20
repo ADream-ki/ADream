@@ -1,0 +1,140 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "Controls",
+					"jsonFile" : "directory-Controls-Debug-5f04e7cd7ce07738729a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Controls",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "Moudles",
+					"jsonFile" : "directory-Moudles-Debug-a776ede638d6a3d35eff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Moudles",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "ADream",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ADream::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ADream-Debug-2fd020edab32f3f31253.json",
+					"name" : "ADream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ADream_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ADream_autogen-Debug-adf586c63604a0f4968f.json",
+					"name" : "ADream_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Controls::@73b0eb9d7e2b25b9cc31",
+					"jsonFile" : "target-Controls-Debug-3fecf9e839c3b8ffdfa9.json",
+					"name" : "Controls",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Controls_autogen::@73b0eb9d7e2b25b9cc31",
+					"jsonFile" : "target-Controls_autogen-Debug-33650e7a4329f90e6afb.json",
+					"name" : "Controls_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Moudles::@fac52ae1c23b2b3fa4de",
+					"jsonFile" : "target-Moudles-Debug-8452077983bebf389943.json",
+					"name" : "Moudles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Moudles_autogen::@fac52ae1c23b2b3fa4de",
+					"jsonFile" : "target-Moudles_autogen-Debug-f8df54e280f526401950.json",
+					"name" : "Moudles_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/ADream/build",
+		"source" : "D:/ADream"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

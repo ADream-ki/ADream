@@ -21,6 +21,7 @@
     </qresource>
 
     <qresource prefix="Qss/">
+        <file alias="Main">./Qss/main.qss</file>
         <file alias="TitleBar">./Qss/main_titlebar.qss</file>
         <file alias="LeftBar2D">./Qss/Paint2D/LeftBar.qss</file>
     </qresource>

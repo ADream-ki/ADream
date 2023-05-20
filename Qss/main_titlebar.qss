@@ -1,16 +1,26 @@
-TitleBar#titleBar {
-  /* 设置背景颜色 */
-  background-color: rgba(100, 100, 100, 1);
+TitleBar > QLabel#Icon {
+  width: 50px;
+  height: 50px;
+}
+TitleBar > QLabel#TitleName {
+  width: 50px;
+  height: 50px;
 }
 
 TitleBar > ADButton#None:hover {
+  width: 50px;
+  height: 50px;
   background-color: rgba(217, 211, 211, 0.3);
 }
 
 TitleBar > ADButton#Main-max:hover {
+  width: 50px;
+  height: 50px;
   background-color: rgba(217, 211, 211, 0.3);
 }
 
 TitleBar > ADButton#Close:hover {
+  width: 50px;
+  height: 50px;
   background-color: rgba(238, 9, 9, 0.86);
 }

@@ -32,9 +32,9 @@ protected:
 
 private:
     // 初始化控件
-    void initWidget();
+    void initWidget(int h);
     // 初始化对应参数
-    void initPar(QWidget *parent);
+    void initPar(QWidget *parent, int h);
     // 设置移动
     void initMove(QWidget *parent);
 

@@ -1,0 +1,18 @@
+BaseWindow#mainwindow {
+  /* 设置背景颜色 */
+  background-color: lightblue;
+  /* border-radius: 5px; */
+}
+
+BaseWindow > TitleBar#TitleBar {
+  /* 设置背景颜色 */
+  background-color: rgba(100, 100, 100, 1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+BaseWindow > QWidget#Contents {
+  /* 设置背景颜色 */
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+}

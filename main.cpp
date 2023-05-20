@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-08 18:33:40
- * @LastEditTime: 2023-05-17 18:02:41
+ * @LastEditTime: 2023-05-20 13:23:05
  * @LastEditors: Xiao
  */
 #include <QApplication>
@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     BaseWindow w;
-    w.setWindowTitle("WidgetBase");
     Content2D *content = new Content2D(&w);
     w.setContentWidget(content);
     w.showMaximized();
