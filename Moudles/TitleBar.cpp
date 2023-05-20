@@ -66,7 +66,8 @@ void TitleBar::initWidget(int h)
     m_closeButton->setObjectName("Close");
     layout->addWidget(m_closeButton);
 
-    layout->setContentsMargins(0, 0, 0, 0);
+    layout->setContentsMargins(0, 0, 0, 0); // 外边框为0
+    layout->setSpacing(0);                  // 控件之间无空隙
     setLayout(layout);
 
     // 连接信号槽
@@ -88,7 +89,7 @@ void TitleBar::initPar(QWidget *parent, int h)
 TitleBar::TitleBar(QString ico_url, QString name, int h,
                    QWidget *parent) : QWidget(parent)
 {
-    initPar(parent,h);
+    initPar(parent, h);
     initWidget(h);
     initMove(parent);
 

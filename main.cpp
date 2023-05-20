@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-08 18:33:40
- * @LastEditTime: 2023-05-20 13:23:05
+ * @LastEditTime: 2023-05-21 00:27:43
  * @LastEditors: Xiao
  */
 #include <QApplication>
@@ -13,13 +13,14 @@
 #include <QPushButton>
 #include "Moudles/TitleBar.h"
 #include "Controls/ADButton.h"
-#include "Moudles/BaseWindow.h"
+#include "Moudles/MainWindow.h"
 #include "Moudles/Paint2D/Content2D.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    BaseWindow w;
+    // BaseWindow w;
+    MainWindow w;
     Content2D *content = new Content2D(&w);
     w.setContentWidget(content);
     w.showMaximized();

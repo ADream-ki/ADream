@@ -424,7 +424,7 @@ CMakeFiles/ADream.dir/main.cpp.obj: D:\ADream\main.cpp \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QMutexLocker \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
- D:\ADream\Controls/ADButton.h D:\ADream\Moudles/BaseWindow.h \
+ D:\ADream\Controls/ADButton.h D:\ADream\Moudles/MainWindow.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QFrame \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
  D:\ADream\Moudles/TitleBar.h \

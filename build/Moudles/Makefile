@@ -143,30 +143,6 @@ Moudles_autogen/fast:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles_autogen.dir\build.make Moudles/CMakeFiles/Moudles_autogen.dir/build
 .PHONY : Moudles_autogen/fast
 
-BaseWindow.obj: BaseWindow.cpp.obj
-.PHONY : BaseWindow.obj
-
-# target to build an object file
-BaseWindow.cpp.obj:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.obj
-.PHONY : BaseWindow.cpp.obj
-
-BaseWindow.i: BaseWindow.cpp.i
-.PHONY : BaseWindow.i
-
-# target to preprocess a source file
-BaseWindow.cpp.i:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.i
-.PHONY : BaseWindow.cpp.i
-
-BaseWindow.s: BaseWindow.cpp.s
-.PHONY : BaseWindow.s
-
-# target to generate assembly for a file
-BaseWindow.cpp.s:
-	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/BaseWindow.cpp.s
-.PHONY : BaseWindow.cpp.s
-
 Config.obj: Config.cpp.obj
 .PHONY : Config.obj
 
@@ -190,6 +166,30 @@ Config.s: Config.cpp.s
 Config.cpp.s:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/Config.cpp.s
 .PHONY : Config.cpp.s
+
+MainWindow.obj: MainWindow.cpp.obj
+.PHONY : MainWindow.obj
+
+# target to build an object file
+MainWindow.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/MainWindow.cpp.obj
+.PHONY : MainWindow.cpp.obj
+
+MainWindow.i: MainWindow.cpp.i
+.PHONY : MainWindow.i
+
+# target to preprocess a source file
+MainWindow.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/MainWindow.cpp.i
+.PHONY : MainWindow.cpp.i
+
+MainWindow.s: MainWindow.cpp.s
+.PHONY : MainWindow.s
+
+# target to generate assembly for a file
+MainWindow.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Moudles\CMakeFiles\Moudles.dir\build.make Moudles/CMakeFiles/Moudles.dir/MainWindow.cpp.s
+.PHONY : MainWindow.cpp.s
 
 Moudles_autogen/mocs_compilation.obj: Moudles_autogen/mocs_compilation.cpp.obj
 .PHONY : Moudles_autogen/mocs_compilation.obj
@@ -297,12 +297,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Moudles_autogen
 	@echo ... Moudles
-	@echo ... BaseWindow.obj
-	@echo ... BaseWindow.i
-	@echo ... BaseWindow.s
 	@echo ... Config.obj
 	@echo ... Config.i
 	@echo ... Config.s
+	@echo ... MainWindow.obj
+	@echo ... MainWindow.i
+	@echo ... MainWindow.s
 	@echo ... Moudles_autogen/mocs_compilation.obj
 	@echo ... Moudles_autogen/mocs_compilation.i
 	@echo ... Moudles_autogen/mocs_compilation.s

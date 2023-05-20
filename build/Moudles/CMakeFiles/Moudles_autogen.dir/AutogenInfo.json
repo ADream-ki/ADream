@@ -10,13 +10,13 @@
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
+		[ "D:/ADream/Moudles/Config.h", "MU", "EWIEGA46WW/moc_Config.cpp", null ],
 		[
-			"D:/ADream/Moudles/BaseWindow.h",
+			"D:/ADream/Moudles/MainWindow.h",
 			"MU",
-			"EWIEGA46WW/moc_BaseWindow.cpp",
+			"EWIEGA46WW/moc_MainWindow.cpp",
 			null
 		],
-		[ "D:/ADream/Moudles/Config.h", "MU", "EWIEGA46WW/moc_Config.cpp", null ],
 		[
 			"D:/ADream/Moudles/Paint2D/Content2D.h",
 			"MU",
@@ -108,8 +108,8 @@
 	"SETTINGS_FILE" : "D:/ADream/build/Moudles/CMakeFiles/Moudles_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/ADream/Moudles/BaseWindow.cpp", "MU", null ],
 		[ "D:/ADream/Moudles/Config.cpp", "MU", null ],
+		[ "D:/ADream/Moudles/MainWindow.cpp", "MU", null ],
 		[ "D:/ADream/Moudles/Paint2D/Content2D.cpp", "MU", null ],
 		[ "D:/ADream/Moudles/Paint2D/LeftFloatingBar.cpp", "MU", null ],
 		[ "D:/ADream/Moudles/TitleBar.cpp", "MU", null ]

@@ -1,11 +1,10 @@
 Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: \
  D:\ADream\build\Moudles\Moudles_autogen\mocs_compilation.cpp \
- D:\ADream\build\Moudles\Moudles_autogen\EWIEGA46WW/moc_BaseWindow.cpp \
- D:/ADream/Moudles/BaseWindow.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/QFrame \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
+ D:\ADream\build\Moudles\Moudles_autogen\EWIEGA46WW/moc_Config.cpp \
+ D:/ADream/Moudles/Config.h D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qglobal.h \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -139,18 +138,8 @@ Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qtresource.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qttranslation.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qnamespace.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qtmetamacros.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs_impl.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qchar.h \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
@@ -311,6 +300,39 @@ Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  D:/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QMutex \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qtsan_impl.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QMutexLocker \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qstringconverter_base.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qcontiguouscache.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qshareddata.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qmap.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qshareddata_impl.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qset.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qhash.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qvarlengtharray.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
+ D:\ADream\build\Moudles\Moudles_autogen\EWIEGA46WW/moc_MainWindow.cpp \
+ D:/ADream/Moudles/MainWindow.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/QFrame \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qmargins.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
@@ -323,9 +345,6 @@ Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qcolor.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qshareddata.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qimage.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
@@ -334,15 +353,6 @@ Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qline.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qvariant.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qstringconverter_base.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qcontiguouscache.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qmap.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qshareddata_impl.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qset.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qhash.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qvarlengtharray.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qbrush.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qfont.h \
@@ -375,7 +385,6 @@ Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QList \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
@@ -402,21 +411,12 @@ Moudles/CMakeFiles/Moudles.dir/Moudles_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qguiapplication_platform.h \
  D:/ADream/Controls/ADButton.h D:/ADream/Controls/Mouse/ADWidgetMove.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QObject D:/ADream/Moudles/Config.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QMutex \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qmutex.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qtsan_impl.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QMutexLocker \
- D:/Qt/6.5.0/mingw_64/include/QtCore/QDebug \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
+ D:/ADream/Moudles/Config.h \
  D:/ADream/Controls/FrameLessHelper/ADBorderContainer.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextcursor.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextformat.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
- D:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
- D:\ADream\build\Moudles\Moudles_autogen\EWIEGA46WW/moc_Config.cpp \
- D:/ADream/Moudles/Config.h \
  D:\ADream\build\Moudles\Moudles_autogen\7RE6FASV4C/moc_Content2D.cpp \
  D:/ADream/Moudles/Paint2D/Content2D.h \
  D:\ADream\build\Moudles\Moudles_autogen\7RE6FASV4C/moc_LeftFloatingBar.cpp \
