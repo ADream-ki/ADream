@@ -8,6 +8,7 @@
     "qtreeview": "cpp",
     "qwidget": "cpp",
     "qevent": "cpp",
-    "qpropertyanimation": "cpp"
+    "qpropertyanimation": "cpp",
+    "set": "cpp"
   }
 }

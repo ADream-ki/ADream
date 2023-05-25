@@ -167,6 +167,78 @@ ADButton.cpp.s:
 	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADButton.cpp.s
 .PHONY : ADButton.cpp.s
 
+ADCanva.obj: ADCanva.cpp.obj
+.PHONY : ADCanva.obj
+
+# target to build an object file
+ADCanva.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADCanva.cpp.obj
+.PHONY : ADCanva.cpp.obj
+
+ADCanva.i: ADCanva.cpp.i
+.PHONY : ADCanva.i
+
+# target to preprocess a source file
+ADCanva.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADCanva.cpp.i
+.PHONY : ADCanva.cpp.i
+
+ADCanva.s: ADCanva.cpp.s
+.PHONY : ADCanva.s
+
+# target to generate assembly for a file
+ADCanva.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADCanva.cpp.s
+.PHONY : ADCanva.cpp.s
+
+ADContainer.obj: ADContainer.cpp.obj
+.PHONY : ADContainer.obj
+
+# target to build an object file
+ADContainer.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADContainer.cpp.obj
+.PHONY : ADContainer.cpp.obj
+
+ADContainer.i: ADContainer.cpp.i
+.PHONY : ADContainer.i
+
+# target to preprocess a source file
+ADContainer.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADContainer.cpp.i
+.PHONY : ADContainer.cpp.i
+
+ADContainer.s: ADContainer.cpp.s
+.PHONY : ADContainer.s
+
+# target to generate assembly for a file
+ADContainer.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADContainer.cpp.s
+.PHONY : ADContainer.cpp.s
+
+ADLogHandler.obj: ADLogHandler.cpp.obj
+.PHONY : ADLogHandler.obj
+
+# target to build an object file
+ADLogHandler.cpp.obj:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADLogHandler.cpp.obj
+.PHONY : ADLogHandler.cpp.obj
+
+ADLogHandler.i: ADLogHandler.cpp.i
+.PHONY : ADLogHandler.i
+
+# target to preprocess a source file
+ADLogHandler.cpp.i:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADLogHandler.cpp.i
+.PHONY : ADLogHandler.cpp.i
+
+ADLogHandler.s: ADLogHandler.cpp.s
+.PHONY : ADLogHandler.s
+
+# target to generate assembly for a file
+ADLogHandler.cpp.s:
+	cd /d D:\ADream\build && $(MAKE) $(MAKESILENT) -f Controls\CMakeFiles\Controls.dir\build.make Controls/CMakeFiles/Controls.dir/ADLogHandler.cpp.s
+.PHONY : ADLogHandler.cpp.s
+
 Controls_autogen/mocs_compilation.obj: Controls_autogen/mocs_compilation.cpp.obj
 .PHONY : Controls_autogen/mocs_compilation.obj
 
@@ -348,6 +420,15 @@ help:
 	@echo ... ADButton.obj
 	@echo ... ADButton.i
 	@echo ... ADButton.s
+	@echo ... ADCanva.obj
+	@echo ... ADCanva.i
+	@echo ... ADCanva.s
+	@echo ... ADContainer.obj
+	@echo ... ADContainer.i
+	@echo ... ADContainer.s
+	@echo ... ADLogHandler.obj
+	@echo ... ADLogHandler.i
+	@echo ... ADLogHandler.s
 	@echo ... Controls_autogen/mocs_compilation.obj
 	@echo ... Controls_autogen/mocs_compilation.i
 	@echo ... Controls_autogen/mocs_compilation.s

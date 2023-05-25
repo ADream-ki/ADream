@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/ADream/Controls/ADButton.cpp" "Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/ADButton.cpp.obj.d"
+  "D:/ADream/Controls/ADCanva.cpp" "Controls/CMakeFiles/Controls.dir/ADCanva.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/ADCanva.cpp.obj.d"
+  "D:/ADream/Controls/ADContainer.cpp" "Controls/CMakeFiles/Controls.dir/ADContainer.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/ADContainer.cpp.obj.d"
+  "D:/ADream/Controls/ADLogHandler.cpp" "Controls/CMakeFiles/Controls.dir/ADLogHandler.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/ADLogHandler.cpp.obj.d"
   "D:/ADream/build/Controls/Controls_autogen/mocs_compilation.cpp" "Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj.d"
   "D:/ADream/Controls/Effect/ExpandtoCollapse.cpp" "Controls/CMakeFiles/Controls.dir/Effect/ExpandtoCollapse.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/Effect/ExpandtoCollapse.cpp.obj.d"
   "D:/ADream/Controls/Effect/Fly.cpp" "Controls/CMakeFiles/Controls.dir/Effect/Fly.cpp.obj" "gcc" "Controls/CMakeFiles/Controls.dir/Effect/Fly.cpp.obj.d"

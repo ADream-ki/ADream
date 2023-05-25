@@ -17,6 +17,24 @@
 			null
 		],
 		[
+			"D:/ADream/Controls/ADCanva.h",
+			"MU",
+			"EWIEGA46WW/moc_ADCanva.cpp",
+			null
+		],
+		[
+			"D:/ADream/Controls/ADContainer.h",
+			"MU",
+			"EWIEGA46WW/moc_ADContainer.cpp",
+			null
+		],
+		[
+			"D:/ADream/Controls/ADLogHandler.h",
+			"MU",
+			"EWIEGA46WW/moc_ADLogHandler.cpp",
+			null
+		],
+		[
 			"D:/ADream/Controls/Effect/BaseEffect.h",
 			"MU",
 			"LWCXL2SYEI/moc_BaseEffect.cpp",
@@ -126,6 +144,9 @@
 	"SOURCES" : 
 	[
 		[ "D:/ADream/Controls/ADButton.cpp", "MU", null ],
+		[ "D:/ADream/Controls/ADCanva.cpp", "MU", null ],
+		[ "D:/ADream/Controls/ADContainer.cpp", "MU", null ],
+		[ "D:/ADream/Controls/ADLogHandler.cpp", "MU", null ],
 		[ "D:/ADream/Controls/Effect/ExpandtoCollapse.cpp", "MU", null ],
 		[ "D:/ADream/Controls/Effect/Fly.cpp", "MU", null ],
 		[ "D:/ADream/Controls/FrameLessHelper/ADBorder.cpp", "MU", null ],

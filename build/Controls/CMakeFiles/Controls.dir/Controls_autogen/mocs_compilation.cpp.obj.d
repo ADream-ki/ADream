@@ -385,6 +385,9 @@ Controls/CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
+ D:\ADream\build\Controls\Controls_autogen\EWIEGA46WW/moc_ADCanva.cpp \
+ D:/ADream/Controls/ADCanva.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/QWheelEvent \
  D:\ADream\build\Controls\Controls_autogen\LWCXL2SYEI/moc_BaseEffect.cpp \
  D:/ADream/Controls/Effect/BaseEffect.h \
  D:/Qt/6.5.0/mingw_64/include/QtCore/QObject \

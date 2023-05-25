@@ -325,6 +325,7 @@ D:/ADream/Moudles/Config.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
+D:/ADream/Moudles/Paint2D/Canva.cpp
 D:/ADream/Moudles/MainWindow.h
  mmc:Q_OBJECT
  mdp:D:/ADream/Moudles/MainWindow.h
@@ -869,7 +870,12 @@ D:/ADream/Moudles/Paint2D/Content2D.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtWidgets/QVBoxLayout
  mdp:D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtWidgets/qboxlayout.h
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtWidgets/qgridlayout.h
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlayout.h
+ mdp:D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlayoutitem.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h
@@ -1886,3 +1892,4 @@ D:/ADream/Moudles/MainWindow.cpp
 D:/ADream/Moudles/Paint2D/Content2D.cpp
 D:/ADream/Moudles/Paint2D/LeftFloatingBar.cpp
 D:/ADream/Moudles/TitleBar.cpp
+D:/ADream/Moudles/Paint2D/Canva.h

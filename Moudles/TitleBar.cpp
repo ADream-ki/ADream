@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-05 14:27:52
- * @LastEditTime: 2023-05-20 08:44:20
+ * @LastEditTime: 2023-05-21 18:36:48
  * @LastEditors: Xiao
  */
 #include "TitleBar.h"
@@ -82,7 +82,8 @@ void TitleBar::initPar(QWidget *parent, int h)
     // 设置名字
     this->setObjectName("titleBar");
     setProperty("titleBar", true);
-
+    // 无边框
+    setWindowFlag(Qt::FramelessWindowHint);
     setAttribute(Qt::WA_StyledBackground, true); // 控件启用 QSS
 }
 

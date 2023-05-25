@@ -1,3 +1,10 @@
+/*
+ * @Description:
+ * @Author: Xiao
+ * @Date: 2023-05-20 22:54:43
+ * @LastEditTime: 2023-05-21 14:39:40
+ * @LastEditors: Xiao
+ */
 #include "MainWindow.h"
 #include <QEvent>
 #include "Paint2D/Content2D.h"
@@ -24,12 +31,17 @@ QWidget *MainWindow::contentWidget()
     return m_contentWidget;
 }
 
-void MainWindow::setContentWidget(QWidget *contentWidget)
+void MainWindow::setContentWidget(QWidget *contentWidget) // 重新设置内容
 {
     m_layout->removeWidget(m_contentWidget);
     delete m_contentWidget;
     m_contentWidget = contentWidget;
+    m_contentWidget->setObjectName("Contents");
+    m_contentWidget->setProperty("Contents", true);
     m_layout->addWidget(m_contentWidget);
+    m_layout->setSpacing(0);
+    m_layout->setContentsMargins(0, 0, 0, 0);
+    setStyle();
 }
 
 void MainWindow::setStyle()
@@ -48,7 +60,7 @@ void MainWindow::initWidget()
     m_titleBar->setProperty("TitleBar", true);
 
     m_contentWidget = new QWidget(this);
-    m_contentWidget->setFixedHeight(this->width() - 50);
+
     m_contentWidget->setObjectName("Contents");
     m_contentWidget->setProperty("Contents", true);
 
@@ -65,7 +77,8 @@ void MainWindow::initWidget()
 
 void MainWindow::setAtr()
 {
-    setWindowFlags(windowFlags() | Qt::FramelessWindowHint);
+    setWindowFlags(Qt::FramelessWindowHint); // windowFlags() |
+    setAttribute(Qt::WA_TranslucentBackground);
     // 关闭QT边框
     setMouseTracking(true);
     // 设置最小尺寸

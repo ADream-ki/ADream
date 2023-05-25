@@ -132,7 +132,12 @@ D:/ADream/build/Moudles/Moudles_autogen/7RE6FASV4C/moc_Content2D.cpp: D:/ADream/
   D:/Qt/6.5.0/mingw_64/include/QtGui/qtransform.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/QVBoxLayout \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qboxlayout.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qgridlayout.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlayout.h \
+  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qlayoutitem.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt/6.5.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \

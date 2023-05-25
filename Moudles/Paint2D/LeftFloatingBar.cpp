@@ -2,7 +2,7 @@
  * @Description: 左侧悬浮栏，不可移动，具备展开收起效果，以及淡入淡出效果
  * @Author: Xiao
  * @Date: 2023-05-17 12:55:41
- * @LastEditTime: 2023-05-20 00:08:00
+ * @LastEditTime: 2023-05-21 14:29:36
  * @LastEditors: Xiao
  */
 #include "LeftFloatingBar.h"
@@ -21,6 +21,9 @@ LeftFloatingBar::~LeftFloatingBar() {}
 void LeftFloatingBar::initWidget(QWidget *parent)
 {
     glay = new QGridLayout(this);
+    glay->setContentsMargins(0, 0, 0, 0); // 外边框为0
+    glay->setSpacing(0);
+
     Two_pen = new ADButton(":Close", 20, 20, this);
     Two_none = new ADButton(":Close", 20, 20, this);
 

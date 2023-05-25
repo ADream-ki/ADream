@@ -2,7 +2,7 @@
  * @Description:
  * @Author: Xiao
  * @Date: 2023-05-08 18:33:40
- * @LastEditTime: 2023-05-21 00:27:43
+ * @LastEditTime: 2023-05-21 01:00:30
  * @LastEditors: Xiao
  */
 #include <QApplication>
@@ -19,7 +19,6 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    // BaseWindow w;
     MainWindow w;
     Content2D *content = new Content2D(&w);
     w.setContentWidget(content);

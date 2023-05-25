@@ -1,14 +1,14 @@
 /* 左侧悬浮框 颜色样式，以及边框*/
 
-LeftFloatingBar#leftbar {
+/* LeftFloatingBar#leftbar { */
   /* 设置背景颜色 */
   /* position: relative;
   top: 20px;
   left: 30px; */
-  background-color: rgba(100, 100, 100, 0.41);
+  /* background-color: rgba(100, 100, 100, 0.41); */
   /* padding-left: 10px; */
   /* padding-top: 10px; */
-}
+/* } */
 
 LeftFloatingBar > ADButton#Two_none:hover {
   background-color: rgba(217, 211, 211, 0.3);

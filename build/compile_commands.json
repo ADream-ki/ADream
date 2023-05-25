@@ -31,6 +31,24 @@
 },
 {
   "directory": "D:/ADream/build/Controls",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\ADCanva.cpp.obj -c D:\\ADream\\Controls\\ADCanva.cpp",
+  "file": "D:/ADream/Controls/ADCanva.cpp",
+  "output": "Controls/CMakeFiles/Controls.dir/ADCanva.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Controls",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\ADContainer.cpp.obj -c D:\\ADream\\Controls\\ADContainer.cpp",
+  "file": "D:/ADream/Controls/ADContainer.cpp",
+  "output": "Controls/CMakeFiles/Controls.dir/ADContainer.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Controls",
+  "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\ADLogHandler.cpp.obj -c D:\\ADream\\Controls\\ADLogHandler.cpp",
+  "file": "D:/ADream/Controls/ADLogHandler.cpp",
+  "output": "Controls/CMakeFiles/Controls.dir/ADLogHandler.cpp.obj"
+},
+{
+  "directory": "D:/ADream/build/Controls",
   "command": "D:\\mingw1120_64\\bin\\g++.exe -DControls_EXPORTS -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Controls.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Controls.dir\\Effect\\ExpandtoCollapse.cpp.obj -c D:\\ADream\\Controls\\Effect\\ExpandtoCollapse.cpp",
   "file": "D:/ADream/Controls/Effect/ExpandtoCollapse.cpp",
   "output": "Controls/CMakeFiles/Controls.dir/Effect/ExpandtoCollapse.cpp.obj"

@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Controls.dir/ADButton.cpp.obj"
   "CMakeFiles/Controls.dir/ADButton.cpp.obj.d"
+  "CMakeFiles/Controls.dir/ADCanva.cpp.obj"
+  "CMakeFiles/Controls.dir/ADCanva.cpp.obj.d"
+  "CMakeFiles/Controls.dir/ADContainer.cpp.obj"
+  "CMakeFiles/Controls.dir/ADContainer.cpp.obj.d"
+  "CMakeFiles/Controls.dir/ADLogHandler.cpp.obj"
+  "CMakeFiles/Controls.dir/ADLogHandler.cpp.obj.d"
   "CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/Controls.dir/Controls_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/Controls.dir/Effect/ExpandtoCollapse.cpp.obj"
