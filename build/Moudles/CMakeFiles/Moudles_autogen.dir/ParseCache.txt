@@ -1483,7 +1483,6 @@ D:/ADream/Moudles/Paint2D/LeftFloatingBar.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
-D:/ADream/Moudles/Config.cpp
 D:/ADream/Moudles/TitleBar.h
  mmc:Q_OBJECT
  mdp:D:/ADream/Moudles/TitleBar.h
@@ -1888,6 +1887,7 @@ D:/ADream/Moudles/TitleBar.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:D:/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
+D:/ADream/Moudles/Config.cpp
 D:/ADream/Moudles/MainWindow.cpp
 D:/ADream/Moudles/Paint2D/Content2D.cpp
 D:/ADream/Moudles/Paint2D/LeftFloatingBar.cpp

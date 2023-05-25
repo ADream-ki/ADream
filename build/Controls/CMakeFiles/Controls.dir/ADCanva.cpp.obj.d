@@ -378,4 +378,12 @@ Controls/CMakeFiles/Controls.dir/ADCanva.cpp.obj: \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
  D:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
  D:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
+ D:\ADream\Controls\ADContainer.h \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/QVector \
+ D:/Qt/6.5.0/mingw_64/include/QtCore/qvector.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
+ D:/Qt/6.5.0/mingw_64/include/QtGui/QResizeEvent

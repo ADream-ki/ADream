@@ -13,32 +13,33 @@
 #include <QWheelEvent>
 #include <QLabel>
 
+#include <QWidget>
+
 class ADCanva : public QWidget
 {
     Q_OBJECT
 public:
     explicit ADCanva(QWidget *parent = nullptr);
     ~ADCanva();
-signals:
 
-public slots:
-    // void canva_move(int offsetX, int offsetY); // 移动
-    // void cnava_scale(float scale);             // 缩放
-    // void setZ(int z);                          // 设置z值
 protected:
-    // void paintEvent(QPaintEvent *event) override;
+    void paintEvent(QPaintEvent *event) override;
+    void mousePressEvent(QMouseEvent *event) override;
+    void mouseMoveEvent(QMouseEvent *event) override;
+    void mouseReleaseEvent(QMouseEvent *event) override;
+    void resizeEvent(QResizeEvent *event) override;
 
 private:
-    // 设置属性
-    void initAtr();
-    // 设置内容
-    void initWidget();
+    qreal scale_;              // 控制画布的缩放比例
+    bool optimizePerformance_; // 标记是否优化性能
 
-private:
-    float scale;
-    int offsetX; // 偏移量
-    int offsetY;
-    int z; // 对应z值
+public:
+    qreal scale() const;
+    void setScale(const qreal &scale);
+    void setOptimizePerformance(bool optimize);
+
+signals:
+    void sizeChanged(); // 尺寸变化信号
 };
 
 #endif // ADCANVA_H
