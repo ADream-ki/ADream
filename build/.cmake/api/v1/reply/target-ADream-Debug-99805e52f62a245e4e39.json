@@ -2,13 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/ADream/bin/libMoudles.dll"
+			"path" : "D:/ADream/bin/ADream.exe"
 		},
 		{
-			"path" : "D:/ADream/bin/libMoudles.dll.a"
-		},
-		{
-			"path" : "D:/ADream/bin/libMoudles.pdb"
+			"path" : "D:/ADream/bin/ADream.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +13,7 @@
 	{
 		"commands" : 
 		[
-			"add_library",
+			"add_executable",
 			"target_link_libraries",
 			"set_target_properties",
 			"include",
@@ -24,11 +21,10 @@
 		],
 		"files" : 
 		[
-			"Moudles/CMakeLists.txt",
+			"CMakeLists.txt",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
-			"CMakeLists.txt",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
 			"D:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
 		],
@@ -40,29 +36,32 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 10,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
-				"file" : 4
+				"command" : 1,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
 			},
 			{
 				"command" : 4,
-				"file" : 4,
+				"file" : 0,
 				"line" : 8,
-				"parent" : 4
+				"parent" : 0
 			},
 			{
 				"file" : 3,
@@ -101,22 +100,22 @@
 				"parent" : 6
 			},
 			{
-				"file" : 6,
+				"file" : 5,
 				"parent" : 12
 			},
 			{
 				"command" : 3,
-				"file" : 6,
+				"file" : 5,
 				"line" : 52,
 				"parent" : 13
 			},
 			{
-				"file" : 5,
+				"file" : 4,
 				"parent" : 14
 			},
 			{
 				"command" : 2,
-				"file" : 5,
+				"file" : 4,
 				"line" : 61,
 				"parent" : 15
 			}
@@ -134,88 +133,85 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "MINGW_HAS_SECURE_API=1"
 				},
 				{
-					"define" : "Moudles_EXPORTS"
-				},
-				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "QT_CORE_LIB"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "QT_GUI_LIB"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "QT_WIDGETS_LIB"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "UNICODE"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "WIN32"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "WIN64"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "_UNICODE"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "_WIN64"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"path" : "D:/ADream/build/Moudles"
+					"path" : "D:/ADream/build"
 				},
 				{
-					"path" : "D:/ADream/Moudles"
+					"path" : "D:/ADream"
 				},
 				{
 					"backtrace" : 0,
-					"path" : "D:/ADream/build/Moudles/Moudles_autogen/include"
+					"path" : "D:/ADream/build/ADream_autogen/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "D:/Qt/6.5.0/mingw_64/include/QtCore"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "D:/Qt/6.5.0/mingw_64/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "D:/Qt/6.5.0/mingw_64/mkspecs/win32-g++"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "D:/Qt/6.5.0/mingw_64/include/QtGui"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "D:/VulkanSDK/1.3.243.0/Include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "D:/Qt/6.5.0/mingw_64/include/QtWidgets"
 				}
@@ -225,8 +221,8 @@
 			{
 				"backtraces" : 
 				[
-					2,
-					2
+					3,
+					3
 				],
 				"standard" : "17"
 			},
@@ -234,10 +230,7 @@
 			[
 				0,
 				1,
-				3,
-				5,
-				7,
-				9
+				3
 			]
 		}
 	],
@@ -245,39 +238,52 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "Controls::@73b0eb9d7e2b25b9cc31"
+			"id" : "Moudles::@fac52ae1c23b2b3fa4de"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "Moudles_autogen::@fac52ae1c23b2b3fa4de"
+			"id" : "ADream_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Controls::@73b0eb9d7e2b25b9cc31"
 		}
 	],
-	"id" : "Moudles::@fac52ae1c23b2b3fa4de",
+	"id" : "ADream::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "D:\\ADream\\bin\\libMoudles.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "D:\\ADream\\bin\\libControls.dll.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Widgets.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Gui.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "D:\\Qt\\6.5.0\\mingw_64\\lib\\libQt6Core.a",
 				"role" : "libraries"
 			},
@@ -318,12 +324,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Moudles",
-	"nameOnDisk" : "libMoudles.dll",
+	"name" : "ADream",
+	"nameOnDisk" : "ADream.exe",
 	"paths" : 
 	{
-		"build" : "Moudles",
-		"source" : "Moudles"
+		"build" : ".",
+		"source" : "."
 	},
 	"sourceGroups" : 
 	[
@@ -333,21 +339,14 @@
 			[
 				0,
 				1,
-				3,
-				5,
-				7,
-				9
+				3
 			]
 		},
 		{
-			"name" : "Header Files",
+			"name" : "",
 			"sourceIndexes" : 
 			[
-				2,
-				4,
-				6,
-				8,
-				10
+				2
 			]
 		}
 	],
@@ -357,64 +356,27 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Moudles/Moudles_autogen/mocs_compilation.cpp",
+			"path" : "build/ADream_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Moudles/Config.cpp",
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Moudles/Config.h",
+			"path" : "resources.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Moudles/MainWindow.cpp",
+			"isGenerated" : true,
+			"path" : "build/qrc_resources.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Moudles/MainWindow.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Moudles/Paint2D/Content2D.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Moudles/Paint2D/Content2D.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Moudles/Paint2D/LeftFloatingBar.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Moudles/Paint2D/LeftFloatingBar.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Moudles/TitleBar.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Moudles/TitleBar.h",
-			"sourceGroupIndex" : 1
 		}
 	],
-	"type" : "SHARED_LIBRARY"
+	"type" : "EXECUTABLE"
 }
