@@ -244,12 +244,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "Moudles_autogen::@fac52ae1c23b2b3fa4de"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "Controls::@73b0eb9d7e2b25b9cc31"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Moudles_autogen::@fac52ae1c23b2b3fa4de"
 		}
 	],
 	"id" : "Moudles::@fac52ae1c23b2b3fa4de",
